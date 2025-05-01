@@ -1,0 +1,68 @@
+site_name: Mkdocs Template Site
+site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/neurodiversity-course/'
+repo_url: 'https://github.com/dmccreary/neurodiversity-course'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - Checklist: checklist.md
+  - Prompts:
+    - prompts/index.md
+    - prompts/concept-enumeration.md
+    - prompts/concept-taxonomy.md
+    - prompts/course-description.md
+  - MicroSims:
+    - sims/index.md
+    - sims/learning-graph/index.md
+  - Glossary: glossary.md
+  - How We Built This Site: how-we-built-this-site.md
+  - References: references.md
+  - Contact: contact.md
+    - license.md
+  
+    - sims/index.md
+    - sims/learning-graph/index.md
+# CoderDojo Microsite Standards from here down
+
+theme:
+  name: material
+  extra_css:
+    - styles/custom.css
+  logo: img/logo.png
+  # favicon: img/my-icon.png
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+    - content.action.edit
+plugins:
+  - search
+#  - social
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+extra_css:
+   - css/extra.css
+#extra:
+#  analytics:
+#    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+#    property: G-XXXX
