@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Neurodiversity Definition,,1
+2,Neurotypical Definition,1,2
+3,Neurodivergent Definition,1|2,2
+4,Normal Distribution Of Cognitive Traits,1,2
+5,Natural Variation In Human Cognition,1|4,1
+6,History Of Neurodiversity Movement,1|3,2
+7,Judy Singer's Contributions,6,2
+8,Medical Model Of Disability,1|3,2
+9,Social Model Of Disability,1|3|8,2
+10,Neurological Pluralism,1|5|9,1
+11,Basic Brain Structure,,1
+12,Neuroplasticity,11,1
+13,Neural Pathways,11|12,1
+14,Synaptic Connections,11|13,1
+15,Cognitive Development Timelines,12|13|14,1
+16,Genetic Factors In Neurodevelopment,11|15,1
+17,Environmental Influences On Neurodevelopment,15|16,1
+18,Executive Functions,13|14|15,3
+19,Working Memory,18,3
+20,Cognitive Flexibility,18|19,3
+21,Inhibitory Control,18|20,3
+22,Task Initiation,18|21,3
+23,Planning And Organization,18|19|22,3
+24,Time Management,18|23,3
+25,Emotional Regulation,18|21,3
+26,Visual Processing,11|13,4
+27,Auditory Processing,11|13,4
+28,Tactile Processing,11|13,4
+29,Proprioceptive Sensing,11|13,4
+30,Sensory Integration,26|27|28|29,4
+31,Sensory Sensitivity,30,4
+32,Sensory Seeking Behaviors,30|31,4
+33,ASD Characteristics,3|18|30|31,5
+34,ADHD Characteristics,3|18|19|21|22|24,5
+35,Dyslexia Characteristics,3|26,5
+36,Dyscalculia Characteristics,3|26,5
+37,Dyspraxia Characteristics,3|29|30,5
+38,Tourette's Characteristics,3|21,5
+39,Synesthesia,3|26|27|30,4
+40,Hyperlexia,3|26|27,4
+41,Visual-Spatial Processing Strengths,26|30,4
+42,Pattern Recognition,26|41,3
+43,Systems Thinking,20|42,3
+44,Global Processing,26|41|43,3
+45,Local Processing,26|41,3
+46,Bottom-Up Processing,26|44|45,3
+47,Top-Down Processing,26|44|45,3
+48,Visual Learning Styles,26|41,6
+49,Auditory Learning Styles,27,6
+50,Kinesthetic Learning Styles,28|29,6
+51,Multiple Intelligences Theory,48|49|50,6
+52,Linguistic Intelligence,49|51,6
+53,Logical-Mathematical Intelligence,42|43|51,6
+54,Spatial Intelligence,41|42|51,6
+55,Musical Intelligence,27|51,6
+56,Bodily-Kinesthetic Intelligence,29|50|51,6
+57,Naturalistic Intelligence,42|51,6
+58,Interpersonal Intelligence,51,6
+59,Intrapersonal Intelligence,51,6
+60,Convergent Thinking,53,3
+61,Divergent Thinking,20|54,3
+62,Lateral Thinking,20|61,3
+63,Mind Mapping Techniques,41|42|61,7
+64,Visual Note-Taking,41|48|63,7
+65,Concept Mapping,43|63,7
+66,Sketchnoting,41|48|64,7
+67,Information Visualization,41|42|65,7
+68,Visual Hierarchy,41|67,7
+69,Gestalt Principles,41|44|68,7
+70,Design Thinking Process,61|62|67,7
+71,Engineering Problem-Solving,60|70,7
+72,Complementary Cognitive Profiles,1|3|5,9
+73,Team Cognitive Diversity,72,9
+74,Cognitive Bias,18|20,3
+75,Perspective-Taking,20|58,6
+76,Cognitive Empathy,58|75,6
+77,Weak Central Coherence Theory,33|45,3
+78,Enhanced Perceptual Functioning,33|41|42,3
+79,Monotropism vs. Polytropic Attention,33|34,3
+80,Hyperfocus,19|79,3
+81,Flow State,80,3
+82,Interest-Based Nervous System,33|34|80,3
+83,Special Interests And Expertise,33|82,5
+84,Asynchronous Development,15|33|34|35|36,2
+85,Twice-Exceptional Learners,3|33|34|35|36|37,2
+86,Compensatory Strategies,33|34|35|36|37|38,8
+87,Assistive Technologies,86,8
+88,Universal Design,5|9|72,8
+89,Universal Design For Learning (UDL),88,8
+90,Accommodation vs. Modification,9|88,8
+91,Inclusive Education Practices,89|90,8
+92,Strength-Based Approaches,5|72|86,8
+93,Collaborative Problem-Solving,73|71,9
+94,Communication Differences,33|34,9
+95,Literal Language Processing,33|94,5
+96,Figurative Language Processing,33|95,5
+97,Visual Communication Tools,41|64|67,8
+98,AAC (Augmentative and Alternative Communication),94|97,8
+99,Social Cognition,58|76,6
+100,Theory Of Mind,33|99,5
+101,Masking And Camouflaging,33|34|100,5
+102,Autistic Burnout,33|101,5
+103,ADHD And Time Blindness,34|24,5
+104,Rejection Sensitive Dysphoria,34|25,5
+105,Autism And Pattern Thinking,33|42|43,5
+106,Visual Thinking In Engineering,41|54|71,7
+107,Visual Thinking In Art,41|54|61,7
+108,Visual Thinking In Science,41|54|42|43,7
+109,Visual Thinking In Mathematics,41|54|53,7
+110,Visual-Spatial Reasoning,41|54,4
+111,Visual Literacy,41|67|97,7
+112,Graphic Facilitation,64|66|97,7
+113,Information Design,67|68|69,7
+114,Data Visualization,67|113,7
+115,Cognitive Load Theory,18|19,3
+116,Dual Coding Theory,26|27|48|49,3
+117,Imagery And Verbal Processing,26|27|116,3
+118,Mental Rotation Skills,41|54|110,4
+119,Spatial Reasoning,54|110|118,4
+120,Diversity In Problem-Solving Approaches,72|93,9
+121,Interdisciplinary Collaboration,73|93|120,9
+122,Cross-Functional Teams,73|121,9
+123,Psychological Safety,73|122,9
+124,Inclusive Leadership,73|123,9
+125,Cognitive Accessibility,88|89,8
+126,Digital Accessibility,125,8
+127,Environmental Sensory Considerations,31|32|88,8
+128,Workplace Accommodations,90|127,8
+129,Disclosure Decisions,3|101,10
+130,Self-Advocacy Skills,10|129,8
+131,Identity Development,3|10,10
+132,Neurodiversity-Affirming Support,10|92,8
+133,Trauma-Informed Approaches,132,8
+134,Intersectionality With Neurodiversity,10|131,10
+135,Stigma And Discrimination,8|9|134,10
+136,Neurodiversity Employment Initiatives,128|130|132,10
+137,Historical Contributions Of Neurodivergent Individuals,3|6,10
+138,Famous Neurodivergent Innovators,137,10
+139,Case Studies Of Successful Teams,73|93|122,9
+140,Innovation Through Cognitive Diversity,73|121|139,9
+141,Neurodiversity In Tech Industry,136|140,10
+142,Neurodiversity In Creative Industries,107|136|140,10
+143,Neurodiversity In STEM Fields,106|108|136|140,10
+144,Neurodiversity In Education,91|92|132,10
+145,Cognitive Diversity ROI (Return On Investment),140|141|142|143,10
+146,Hiring For Cognitive Diversity,124|136,10
+147,Interview Accommodations,128|146,10
+148,Onboarding Neurodivergent Team Members,128|146,10
+149,Mentoring Across Cognitive Styles,72|132|148,9
+150,Giving And Receiving Feedback,94|123|149,9
+151,Conflict Resolution Across Cognitive Differences,72|94|123,9
+152,Meeting Design For Neurodiversity,127|128,9
+153,Document Design For Accessibility,125|126,9
+154,Project Management Adaptations,23|128|152,9
+155,Remote Work Considerations,128|152|153,9
+156,Neurodiversity And AI Systems,3|87,11
+157,AI As Assistive Technology,87|156,11
+158,Generative AI Tools,156|157,11
+159,Visual Programming Languages,41|97|126,11
+160,Low-Code Development Platforms,159,11
+161,AI-Human Cognitive Partnerships,72|156|158,11
+162,Cognitive Offloading To Technology,18|87|157,11
+163,AI Bias And Neurodiversity,135|156,11
+164,Neurodivergent User Experience (UX),113|125|126|156,11
+165,Ethical Considerations In AI Development,156|163,11
+166,Future Of Work And Neurodiversity,136|140|155|161,12
+167,Neurodiversity In Leadership Roles,124|140,10
+168,Systems Change For Inclusion,9|10|124|144,10
+169,Community Building,124|132|144,10
+170,Peer Support Networks,132|169,10
+171,Family Systems And Neurodiversity,132|134,10
+172,Neurodiversity-Affirming Therapy,132|133,8
+173,Intergenerational Neurodiversity,16|134|171,10
+174,Global Perspectives On Neurodiversity,10|134,10
+175,Cultural Influences On Neurodiversity Acceptance,134|174,10
+176,Neurodiversity Rights Movement,6|9|10|134,10
+177,Self-Determination,10|130|131,10
+178,Quality Of Life Outcomes,132|177,10
+179,Measuring Inclusion Impact,123|124|145|168,10
+180,Organizational Change Management,124|168,10
+181,Policy Development,176|180,10
+182,Legal Protections,176|181,10
+183,Neurodiversity And Innovation Research,140|145,12
+184,Mixed Methods Research Approaches,183,12
+185,Participatory Research With Neurodivergent Communities,177|183|184,12
+186,Visual Methods In Research,41|67|97|184,7
+187,Knowledge Translation,183|186,12
+188,Implementation Science,180|187,12
+189,Emerging Technologies Impact,156|157|158|161,11
+190,AR/VR For Cognitive Differences,87|157|189,11
+191,Brain-Computer Interfaces,87|157|189,11
+192,Neurotechnology Ethics,165|189|190|191,11
+193,Future Of Neurodiversity Studies,183|185|189,12
+194,Interdisciplinary Curriculum Development,91|143|144,12
+195,Professional Development For Educators,144|194,12
+196,Cross-Sector Collaboration,121|140|168,9
+197,Neurodiversity Movement Critiques,6|10|176,10
+198,Balancing Support And Independence,132|177,8
+199,Moving Beyond Labels,10|177,2
+200,Celebrating Cognitive Biodiversity,5|10|72|140|199,12
