@@ -3,7 +3,7 @@
         {
             "id": 1,
             "label": "Neurodiversity Definition",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 2,
@@ -48,32 +48,32 @@
         {
             "id": 10,
             "label": "Neurological Pluralism",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 11,
             "label": "Basic Brain Structure",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 12,
             "label": "Neuroplasticity",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 13,
             "label": "Neural Pathways",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 14,
             "label": "Synaptic Connections",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 15,
             "label": "Cognitive Development Timelines",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 16,
@@ -83,7 +83,7 @@
         {
             "id": 17,
             "label": "Environmental Influences On Neurodevelopment",
-            "group": 1
+            "group": "found"
         },
         {
             "id": 18,
@@ -963,17 +963,17 @@
         {
             "id": 193,
             "label": "Future Of Neurodiversity Studies",
-            "group": 12
+            "group": "goal"
         },
         {
             "id": 194,
             "label": "Interdisciplinary Curriculum Development",
-            "group": 12
+            "group": "goal"
         },
         {
             "id": 195,
             "label": "Professional Development For Educators",
-            "group": 12
+            "group": "goal"
         },
         {
             "id": 196,
@@ -998,7 +998,7 @@
         {
             "id": 200,
             "label": "Celebrating Cognitive Biodiversity",
-            "group": 12
+            "group": "goal"
         }
     ],
     "edges": [
