@@ -8,7 +8,6 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
-  - Checklist: checklist.md
   - Prompts:
     - prompts/index.md
     - prompts/concept-enumeration.md
@@ -21,11 +20,9 @@ nav:
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
   - Contact: contact.md
-    - license.md
-  
-    - sims/index.md
-    - sims/learning-graph/index.md
-# CoderDojo Microsite Standards from here down
+  - License: license.md
+
+# Dan's MicroSite Standards from here down
 
 theme:
   name: material
