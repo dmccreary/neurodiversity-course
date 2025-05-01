@@ -28,11 +28,11 @@ theme:
   name: material
   extra_css:
     - styles/custom.css
-  logo: img/logo.png
-  # favicon: img/my-icon.png
+  logo: img/logo-192x192.png
+  favicon: img/favicon.ico
   palette:
     primary: 'blue'
-    accent: 'orange'
+    accent: 'gold'
   include_sidebar: true
   features:
     - content.code.copy
