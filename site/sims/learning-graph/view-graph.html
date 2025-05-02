@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Graph for Deep Learning with Python</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script src="view-graph.js" delay></script>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        }
+
+        #sidebar {
+            width: auto; /* Automatically adjust width based on content in the table */
+            max-width: 300px; /* Set a maximum width to avoid excessive size */
+            padding: 5px; /* around the sidebar */
+            margin-right: 10px; /* Space between sidebar and main content */
+            box-sizing: border-box;
+        }
+
+        #main {
+            flex: 1; /* Takes up remaining space to the right */
+            padding: 10px;
+        }
+
+        #mynetwork {
+            width: 100%;
+            height: 700px;
+            background-color: aliceblue;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="sidebar-container">
+        <button id="toggle-button" onclick="toggleSidebar()">&#9776;</button>
+
+        <div id="sidebar">
+            <h3>Legend Sidebar</h3>
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif;">
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <th style="padding: 12px; text-align: left; font-size: 18px;">Taxonomy Category</th>
+                    <th style="padding: 12px; text-align: left; font-size: 18px;">Color Code</th>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">1. Foundational Concepts</td>
+                    <td style="background-color: #FF5252; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Red</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">2. Terms and Definitions</td>
+                    <td style="background-color: #FFA726; color: black; padding: 12px; font-size: 12px; font-weight: bold;">Orange</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">3. Cognitive Processing Patterns</td>
+                    <td style="background-color: #FFEB3B; color: black; padding: 12px; font-size: 12px; font-weight: bold;">Yellow</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">4. Sensory Processing</td>
+                    <td style="background-color: #66BB6A; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Green</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">5. Neurodivergent Profiles</td>
+                    <td style="background-color: #26C6DA; color: black; padding: 12px; font-size: 12px; font-weight: bold;">Cyan</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">6. Learning and Intelligence Frameworks</td>
+                    <td style="background-color: #42A5F5; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Blue</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">7. Visual Thinking Applications</td>
+                    <td style="background-color: #7E57C2; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Purple</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">8. Support Strategies and Accommodations</td>
+                    <td style="background-color: #EC407A; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Pink</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">9. Team Dynamics and Collaboration</td>
+                    <td style="background-color: #AB47BC; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Magenta</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">10. Organizational and Societal Impact</td>
+                    <td style="background-color: #78909C; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Gray</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">11. Technology and AI Integration</td>
+                    <td style="background-color: #8D6E63; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Brown</td>
+                </tr>
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px; font-size: 12px;">12. Future Directions and Goals</td>
+                    <td style="background-color: #00BFA5; color: white; padding: 12px; font-size: 12px; font-weight: bold;">Teal</td>
+                </tr>
+            </table>
+            
+            <!--
+            <h3>Graph Statistics</h3>
+            <ul>
+                <li><b>Nodes:</b> 100</li>
+                <li><b>Edges:</b> 200</li>
+                <li><b>Orphans:</b> 3</li>
+            </ul>
+            -->
+        </div>
+        
+    </div>
+    <div id="main">
+        <h4>Learning Graph for Deep Learning with Python v1</h4>
+
+        <div id="mynetwork"></div>
+
+        <a href=".">Return to lesson plan</a>
+
+    </div>
+    <!-- Load the graph data and visualize it -->
+    <script>
+        window.onload = function() {
+            drawGraph();
+        };
+    </script>
+</body>
+</html>

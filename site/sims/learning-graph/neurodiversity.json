@@ -1,0 +1,2958 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "label": "Neurodiversity Definition",
+            "group": "found"
+        },
+        {
+            "id": 2,
+            "label": "Neurotypical Definition",
+            "group": 2
+        },
+        {
+            "id": 3,
+            "label": "Neurodivergent Definition",
+            "group": 2
+        },
+        {
+            "id": 4,
+            "label": "Normal Distribution Of Cognitive Traits",
+            "group": 2
+        },
+        {
+            "id": 5,
+            "label": "Natural Variation In Human Cognition",
+            "group": 1
+        },
+        {
+            "id": 6,
+            "label": "History Of Neurodiversity Movement",
+            "group": 2
+        },
+        {
+            "id": 7,
+            "label": "Judy Singer's Contributions",
+            "group": 2
+        },
+        {
+            "id": 8,
+            "label": "Medical Model Of Disability",
+            "group": 2
+        },
+        {
+            "id": 9,
+            "label": "Social Model Of Disability",
+            "group": 2
+        },
+        {
+            "id": 10,
+            "label": "Neurological Pluralism",
+            "group": "found"
+        },
+        {
+            "id": 11,
+            "label": "Basic Brain Structure",
+            "group": "found"
+        },
+        {
+            "id": 12,
+            "label": "Neuroplasticity",
+            "group": "found"
+        },
+        {
+            "id": 13,
+            "label": "Neural Pathways",
+            "group": "found"
+        },
+        {
+            "id": 14,
+            "label": "Synaptic Connections",
+            "group": "found"
+        },
+        {
+            "id": 15,
+            "label": "Cognitive Development Timelines",
+            "group": "found"
+        },
+        {
+            "id": 16,
+            "label": "Genetic Factors In Neurodevelopment",
+            "group": 1
+        },
+        {
+            "id": 17,
+            "label": "Environmental Influences On Neurodevelopment",
+            "group": "found"
+        },
+        {
+            "id": 18,
+            "label": "Executive Functions",
+            "group": 3
+        },
+        {
+            "id": 19,
+            "label": "Working Memory",
+            "group": 3
+        },
+        {
+            "id": 20,
+            "label": "Cognitive Flexibility",
+            "group": 3
+        },
+        {
+            "id": 21,
+            "label": "Inhibitory Control",
+            "group": 3
+        },
+        {
+            "id": 22,
+            "label": "Task Initiation",
+            "group": 3
+        },
+        {
+            "id": 23,
+            "label": "Planning And Organization",
+            "group": 3
+        },
+        {
+            "id": 24,
+            "label": "Time Management",
+            "group": 3
+        },
+        {
+            "id": 25,
+            "label": "Emotional Regulation",
+            "group": 3
+        },
+        {
+            "id": 26,
+            "label": "Visual Processing",
+            "group": 4
+        },
+        {
+            "id": 27,
+            "label": "Auditory Processing",
+            "group": 4
+        },
+        {
+            "id": 28,
+            "label": "Tactile Processing",
+            "group": 4
+        },
+        {
+            "id": 29,
+            "label": "Proprioceptive Sensing",
+            "group": 4
+        },
+        {
+            "id": 30,
+            "label": "Sensory Integration",
+            "group": 4
+        },
+        {
+            "id": 31,
+            "label": "Sensory Sensitivity",
+            "group": 4
+        },
+        {
+            "id": 32,
+            "label": "Sensory Seeking Behaviors",
+            "group": 4
+        },
+        {
+            "id": 33,
+            "label": "ASD Characteristics",
+            "group": 5
+        },
+        {
+            "id": 34,
+            "label": "ADHD Characteristics",
+            "group": 5
+        },
+        {
+            "id": 35,
+            "label": "Dyslexia Characteristics",
+            "group": 5
+        },
+        {
+            "id": 36,
+            "label": "Dyscalculia Characteristics",
+            "group": 5
+        },
+        {
+            "id": 37,
+            "label": "Dyspraxia Characteristics",
+            "group": 5
+        },
+        {
+            "id": 38,
+            "label": "Tourette's Characteristics",
+            "group": 5
+        },
+        {
+            "id": 39,
+            "label": "Synesthesia",
+            "group": 4
+        },
+        {
+            "id": 40,
+            "label": "Hyperlexia",
+            "group": 4
+        },
+        {
+            "id": 41,
+            "label": "Visual-Spatial Processing Strengths",
+            "group": 4
+        },
+        {
+            "id": 42,
+            "label": "Pattern Recognition",
+            "group": 3
+        },
+        {
+            "id": 43,
+            "label": "Systems Thinking",
+            "group": 3
+        },
+        {
+            "id": 44,
+            "label": "Global Processing",
+            "group": 3
+        },
+        {
+            "id": 45,
+            "label": "Local Processing",
+            "group": 3
+        },
+        {
+            "id": 46,
+            "label": "Bottom-Up Processing",
+            "group": 3
+        },
+        {
+            "id": 47,
+            "label": "Top-Down Processing",
+            "group": 3
+        },
+        {
+            "id": 48,
+            "label": "Visual Learning Styles",
+            "group": 6
+        },
+        {
+            "id": 49,
+            "label": "Auditory Learning Styles",
+            "group": 6
+        },
+        {
+            "id": 50,
+            "label": "Kinesthetic Learning Styles",
+            "group": 6
+        },
+        {
+            "id": 51,
+            "label": "Multiple Intelligences Theory",
+            "group": 6
+        },
+        {
+            "id": 52,
+            "label": "Linguistic Intelligence",
+            "group": 6
+        },
+        {
+            "id": 53,
+            "label": "Logical-Mathematical Intelligence",
+            "group": 6
+        },
+        {
+            "id": 54,
+            "label": "Spatial Intelligence",
+            "group": 6
+        },
+        {
+            "id": 55,
+            "label": "Musical Intelligence",
+            "group": 6
+        },
+        {
+            "id": 56,
+            "label": "Bodily-Kinesthetic Intelligence",
+            "group": 6
+        },
+        {
+            "id": 57,
+            "label": "Naturalistic Intelligence",
+            "group": 6
+        },
+        {
+            "id": 58,
+            "label": "Interpersonal Intelligence",
+            "group": 6
+        },
+        {
+            "id": 59,
+            "label": "Intrapersonal Intelligence",
+            "group": 6
+        },
+        {
+            "id": 60,
+            "label": "Convergent Thinking",
+            "group": 3
+        },
+        {
+            "id": 61,
+            "label": "Divergent Thinking",
+            "group": 3
+        },
+        {
+            "id": 62,
+            "label": "Lateral Thinking",
+            "group": 3
+        },
+        {
+            "id": 63,
+            "label": "Mind Mapping Techniques",
+            "group": 7
+        },
+        {
+            "id": 64,
+            "label": "Visual Note-Taking",
+            "group": 7
+        },
+        {
+            "id": 65,
+            "label": "Concept Mapping",
+            "group": 7
+        },
+        {
+            "id": 66,
+            "label": "Sketchnoting",
+            "group": 7
+        },
+        {
+            "id": 67,
+            "label": "Information Visualization",
+            "group": 7
+        },
+        {
+            "id": 68,
+            "label": "Visual Hierarchy",
+            "group": 7
+        },
+        {
+            "id": 69,
+            "label": "Gestalt Principles",
+            "group": 7
+        },
+        {
+            "id": 70,
+            "label": "Design Thinking Process",
+            "group": 7
+        },
+        {
+            "id": 71,
+            "label": "Engineering Problem-Solving",
+            "group": 7
+        },
+        {
+            "id": 72,
+            "label": "Complementary Cognitive Profiles",
+            "group": 9
+        },
+        {
+            "id": 73,
+            "label": "Team Cognitive Diversity",
+            "group": 9
+        },
+        {
+            "id": 74,
+            "label": "Cognitive Bias",
+            "group": 3
+        },
+        {
+            "id": 75,
+            "label": "Perspective-Taking",
+            "group": 6
+        },
+        {
+            "id": 76,
+            "label": "Cognitive Empathy",
+            "group": 6
+        },
+        {
+            "id": 77,
+            "label": "Weak Central Coherence Theory",
+            "group": 3
+        },
+        {
+            "id": 78,
+            "label": "Enhanced Perceptual Functioning",
+            "group": 3
+        },
+        {
+            "id": 79,
+            "label": "Monotropism vs. Polytropic Attention",
+            "group": 3
+        },
+        {
+            "id": 80,
+            "label": "Hyperfocus",
+            "group": 3
+        },
+        {
+            "id": 81,
+            "label": "Flow State",
+            "group": 3
+        },
+        {
+            "id": 82,
+            "label": "Interest-Based Nervous System",
+            "group": 3
+        },
+        {
+            "id": 83,
+            "label": "Special Interests And Expertise",
+            "group": 5
+        },
+        {
+            "id": 84,
+            "label": "Asynchronous Development",
+            "group": 2
+        },
+        {
+            "id": 85,
+            "label": "Twice-Exceptional Learners",
+            "group": 2
+        },
+        {
+            "id": 86,
+            "label": "Compensatory Strategies",
+            "group": 8
+        },
+        {
+            "id": 87,
+            "label": "Assistive Technologies",
+            "group": 8
+        },
+        {
+            "id": 88,
+            "label": "Universal Design",
+            "group": 8
+        },
+        {
+            "id": 89,
+            "label": "Universal Design For Learning (UDL)",
+            "group": 8
+        },
+        {
+            "id": 90,
+            "label": "Accommodation vs. Modification",
+            "group": 8
+        },
+        {
+            "id": 91,
+            "label": "Inclusive Education Practices",
+            "group": 8
+        },
+        {
+            "id": 92,
+            "label": "Strength-Based Approaches",
+            "group": 8
+        },
+        {
+            "id": 93,
+            "label": "Collaborative Problem-Solving",
+            "group": 9
+        },
+        {
+            "id": 94,
+            "label": "Communication Differences",
+            "group": 9
+        },
+        {
+            "id": 95,
+            "label": "Literal Language Processing",
+            "group": 5
+        },
+        {
+            "id": 96,
+            "label": "Figurative Language Processing",
+            "group": 5
+        },
+        {
+            "id": 97,
+            "label": "Visual Communication Tools",
+            "group": 8
+        },
+        {
+            "id": 98,
+            "label": "AAC (Augmentative and Alternative Communication)",
+            "group": 8
+        },
+        {
+            "id": 99,
+            "label": "Social Cognition",
+            "group": 6
+        },
+        {
+            "id": 100,
+            "label": "Theory Of Mind",
+            "group": 5
+        },
+        {
+            "id": 101,
+            "label": "Masking And Camouflaging",
+            "group": 5
+        },
+        {
+            "id": 102,
+            "label": "Autistic Burnout",
+            "group": 5
+        },
+        {
+            "id": 103,
+            "label": "ADHD And Time Blindness",
+            "group": 5
+        },
+        {
+            "id": 104,
+            "label": "Rejection Sensitive Dysphoria",
+            "group": 5
+        },
+        {
+            "id": 105,
+            "label": "Autism And Pattern Thinking",
+            "group": 5
+        },
+        {
+            "id": 106,
+            "label": "Visual Thinking In Engineering",
+            "group": 7
+        },
+        {
+            "id": 107,
+            "label": "Visual Thinking In Art",
+            "group": 7
+        },
+        {
+            "id": 108,
+            "label": "Visual Thinking In Science",
+            "group": 7
+        },
+        {
+            "id": 109,
+            "label": "Visual Thinking In Mathematics",
+            "group": 7
+        },
+        {
+            "id": 110,
+            "label": "Visual-Spatial Reasoning",
+            "group": 4
+        },
+        {
+            "id": 111,
+            "label": "Visual Literacy",
+            "group": 7
+        },
+        {
+            "id": 112,
+            "label": "Graphic Facilitation",
+            "group": 7
+        },
+        {
+            "id": 113,
+            "label": "Information Design",
+            "group": 7
+        },
+        {
+            "id": 114,
+            "label": "Data Visualization",
+            "group": 7
+        },
+        {
+            "id": 115,
+            "label": "Cognitive Load Theory",
+            "group": 3
+        },
+        {
+            "id": 116,
+            "label": "Dual Coding Theory",
+            "group": 3
+        },
+        {
+            "id": 117,
+            "label": "Imagery And Verbal Processing",
+            "group": 3
+        },
+        {
+            "id": 118,
+            "label": "Mental Rotation Skills",
+            "group": 4
+        },
+        {
+            "id": 119,
+            "label": "Spatial Reasoning",
+            "group": 4
+        },
+        {
+            "id": 120,
+            "label": "Diversity In Problem-Solving Approaches",
+            "group": 9
+        },
+        {
+            "id": 121,
+            "label": "Interdisciplinary Collaboration",
+            "group": 9
+        },
+        {
+            "id": 122,
+            "label": "Cross-Functional Teams",
+            "group": 9
+        },
+        {
+            "id": 123,
+            "label": "Psychological Safety",
+            "group": 9
+        },
+        {
+            "id": 124,
+            "label": "Inclusive Leadership",
+            "group": 9
+        },
+        {
+            "id": 125,
+            "label": "Cognitive Accessibility",
+            "group": 8
+        },
+        {
+            "id": 126,
+            "label": "Digital Accessibility",
+            "group": 8
+        },
+        {
+            "id": 127,
+            "label": "Environmental Sensory Considerations",
+            "group": 8
+        },
+        {
+            "id": 128,
+            "label": "Workplace Accommodations",
+            "group": 8
+        },
+        {
+            "id": 129,
+            "label": "Disclosure Decisions",
+            "group": 10
+        },
+        {
+            "id": 130,
+            "label": "Self-Advocacy Skills",
+            "group": 8
+        },
+        {
+            "id": 131,
+            "label": "Identity Development",
+            "group": 10
+        },
+        {
+            "id": 132,
+            "label": "Neurodiversity-Affirming Support",
+            "group": 8
+        },
+        {
+            "id": 133,
+            "label": "Trauma-Informed Approaches",
+            "group": 8
+        },
+        {
+            "id": 134,
+            "label": "Intersectionality With Neurodiversity",
+            "group": 10
+        },
+        {
+            "id": 135,
+            "label": "Stigma And Discrimination",
+            "group": 10
+        },
+        {
+            "id": 136,
+            "label": "Neurodiversity Employment Initiatives",
+            "group": 10
+        },
+        {
+            "id": 137,
+            "label": "Historical Contributions Of Neurodivergent Individuals",
+            "group": 10
+        },
+        {
+            "id": 138,
+            "label": "Famous Neurodivergent Innovators",
+            "group": 10
+        },
+        {
+            "id": 139,
+            "label": "Case Studies Of Successful Teams",
+            "group": 9
+        },
+        {
+            "id": 140,
+            "label": "Innovation Through Cognitive Diversity",
+            "group": 9
+        },
+        {
+            "id": 141,
+            "label": "Neurodiversity In Tech Industry",
+            "group": 10
+        },
+        {
+            "id": 142,
+            "label": "Neurodiversity In Creative Industries",
+            "group": 10
+        },
+        {
+            "id": 143,
+            "label": "Neurodiversity In STEM Fields",
+            "group": 10
+        },
+        {
+            "id": 144,
+            "label": "Neurodiversity In Education",
+            "group": 10
+        },
+        {
+            "id": 145,
+            "label": "Cognitive Diversity ROI (Return On Investment)",
+            "group": 10
+        },
+        {
+            "id": 146,
+            "label": "Hiring For Cognitive Diversity",
+            "group": 10
+        },
+        {
+            "id": 147,
+            "label": "Interview Accommodations",
+            "group": 10
+        },
+        {
+            "id": 148,
+            "label": "Onboarding Neurodivergent Team Members",
+            "group": 10
+        },
+        {
+            "id": 149,
+            "label": "Mentoring Across Cognitive Styles",
+            "group": 9
+        },
+        {
+            "id": 150,
+            "label": "Giving And Receiving Feedback",
+            "group": 9
+        },
+        {
+            "id": 151,
+            "label": "Conflict Resolution Across Cognitive Differences",
+            "group": 9
+        },
+        {
+            "id": 152,
+            "label": "Meeting Design For Neurodiversity",
+            "group": 9
+        },
+        {
+            "id": 153,
+            "label": "Document Design For Accessibility",
+            "group": 9
+        },
+        {
+            "id": 154,
+            "label": "Project Management Adaptations",
+            "group": 9
+        },
+        {
+            "id": 155,
+            "label": "Remote Work Considerations",
+            "group": 9
+        },
+        {
+            "id": 156,
+            "label": "Neurodiversity And AI Systems",
+            "group": 11
+        },
+        {
+            "id": 157,
+            "label": "AI As Assistive Technology",
+            "group": 11
+        },
+        {
+            "id": 158,
+            "label": "Generative AI Tools",
+            "group": 11
+        },
+        {
+            "id": 159,
+            "label": "Visual Programming Languages",
+            "group": 11
+        },
+        {
+            "id": 160,
+            "label": "Low-Code Development Platforms",
+            "group": 11
+        },
+        {
+            "id": 161,
+            "label": "AI-Human Cognitive Partnerships",
+            "group": 11
+        },
+        {
+            "id": 162,
+            "label": "Cognitive Offloading To Technology",
+            "group": 11
+        },
+        {
+            "id": 163,
+            "label": "AI Bias And Neurodiversity",
+            "group": 11
+        },
+        {
+            "id": 164,
+            "label": "Neurodivergent User Experience (UX)",
+            "group": 11
+        },
+        {
+            "id": 165,
+            "label": "Ethical Considerations In AI Development",
+            "group": 11
+        },
+        {
+            "id": 166,
+            "label": "Future Of Work And Neurodiversity",
+            "group": 12
+        },
+        {
+            "id": 167,
+            "label": "Neurodiversity In Leadership Roles",
+            "group": 10
+        },
+        {
+            "id": 168,
+            "label": "Systems Change For Inclusion",
+            "group": 10
+        },
+        {
+            "id": 169,
+            "label": "Community Building",
+            "group": 10
+        },
+        {
+            "id": 170,
+            "label": "Peer Support Networks",
+            "group": 10
+        },
+        {
+            "id": 171,
+            "label": "Family Systems And Neurodiversity",
+            "group": 10
+        },
+        {
+            "id": 172,
+            "label": "Neurodiversity-Affirming Therapy",
+            "group": 8
+        },
+        {
+            "id": 173,
+            "label": "Intergenerational Neurodiversity",
+            "group": 10
+        },
+        {
+            "id": 174,
+            "label": "Global Perspectives On Neurodiversity",
+            "group": 10
+        },
+        {
+            "id": 175,
+            "label": "Cultural Influences On Neurodiversity Acceptance",
+            "group": 10
+        },
+        {
+            "id": 176,
+            "label": "Neurodiversity Rights Movement",
+            "group": 10
+        },
+        {
+            "id": 177,
+            "label": "Self-Determination",
+            "group": 10
+        },
+        {
+            "id": 178,
+            "label": "Quality Of Life Outcomes",
+            "group": 10
+        },
+        {
+            "id": 179,
+            "label": "Measuring Inclusion Impact",
+            "group": 10
+        },
+        {
+            "id": 180,
+            "label": "Organizational Change Management",
+            "group": 10
+        },
+        {
+            "id": 181,
+            "label": "Policy Development",
+            "group": 10
+        },
+        {
+            "id": 182,
+            "label": "Legal Protections",
+            "group": 10
+        },
+        {
+            "id": 183,
+            "label": "Neurodiversity And Innovation Research",
+            "group": 12
+        },
+        {
+            "id": 184,
+            "label": "Mixed Methods Research Approaches",
+            "group": 12
+        },
+        {
+            "id": 185,
+            "label": "Participatory Research With Neurodivergent Communities",
+            "group": 12
+        },
+        {
+            "id": 186,
+            "label": "Visual Methods In Research",
+            "group": 7
+        },
+        {
+            "id": 187,
+            "label": "Knowledge Translation",
+            "group": 12
+        },
+        {
+            "id": 188,
+            "label": "Implementation Science",
+            "group": 12
+        },
+        {
+            "id": 189,
+            "label": "Emerging Technologies Impact",
+            "group": 11
+        },
+        {
+            "id": 190,
+            "label": "AR/VR For Cognitive Differences",
+            "group": 11
+        },
+        {
+            "id": 191,
+            "label": "Brain-Computer Interfaces",
+            "group": 11
+        },
+        {
+            "id": 192,
+            "label": "Neurotechnology Ethics",
+            "group": 11
+        },
+        {
+            "id": 193,
+            "label": "Future Of Neurodiversity Studies",
+            "group": "goal"
+        },
+        {
+            "id": 194,
+            "label": "Interdisciplinary Curriculum Development",
+            "group": "goal"
+        },
+        {
+            "id": 195,
+            "label": "Professional Development For Educators",
+            "group": "goal"
+        },
+        {
+            "id": 196,
+            "label": "Cross-Sector Collaboration",
+            "group": 9
+        },
+        {
+            "id": 197,
+            "label": "Neurodiversity Movement Critiques",
+            "group": 10
+        },
+        {
+            "id": 198,
+            "label": "Balancing Support And Independence",
+            "group": 8
+        },
+        {
+            "id": 199,
+            "label": "Moving Beyond Labels",
+            "group": 2
+        },
+        {
+            "id": 200,
+            "label": "Celebrating Cognitive Biodiversity",
+            "group": "goal"
+        }
+    ],
+    "edges": [
+        {
+            "from": 2,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 1
+        },
+        {
+            "from": 3,
+            "to": 2
+        },
+        {
+            "from": 4,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 1
+        },
+        {
+            "from": 5,
+            "to": 4
+        },
+        {
+            "from": 6,
+            "to": 1
+        },
+        {
+            "from": 6,
+            "to": 3
+        },
+        {
+            "from": 7,
+            "to": 6
+        },
+        {
+            "from": 8,
+            "to": 1
+        },
+        {
+            "from": 8,
+            "to": 3
+        },
+        {
+            "from": 9,
+            "to": 1
+        },
+        {
+            "from": 9,
+            "to": 3
+        },
+        {
+            "from": 9,
+            "to": 8
+        },
+        {
+            "from": 10,
+            "to": 1
+        },
+        {
+            "from": 10,
+            "to": 5
+        },
+        {
+            "from": 10,
+            "to": 9
+        },
+        {
+            "from": 12,
+            "to": 11
+        },
+        {
+            "from": 13,
+            "to": 11
+        },
+        {
+            "from": 13,
+            "to": 12
+        },
+        {
+            "from": 14,
+            "to": 11
+        },
+        {
+            "from": 14,
+            "to": 13
+        },
+        {
+            "from": 15,
+            "to": 12
+        },
+        {
+            "from": 15,
+            "to": 13
+        },
+        {
+            "from": 15,
+            "to": 14
+        },
+        {
+            "from": 16,
+            "to": 11
+        },
+        {
+            "from": 16,
+            "to": 15
+        },
+        {
+            "from": 17,
+            "to": 15
+        },
+        {
+            "from": 17,
+            "to": 16
+        },
+        {
+            "from": 18,
+            "to": 13
+        },
+        {
+            "from": 18,
+            "to": 14
+        },
+        {
+            "from": 18,
+            "to": 15
+        },
+        {
+            "from": 19,
+            "to": 18
+        },
+        {
+            "from": 20,
+            "to": 18
+        },
+        {
+            "from": 20,
+            "to": 19
+        },
+        {
+            "from": 21,
+            "to": 18
+        },
+        {
+            "from": 21,
+            "to": 20
+        },
+        {
+            "from": 22,
+            "to": 18
+        },
+        {
+            "from": 22,
+            "to": 21
+        },
+        {
+            "from": 23,
+            "to": 18
+        },
+        {
+            "from": 23,
+            "to": 19
+        },
+        {
+            "from": 23,
+            "to": 22
+        },
+        {
+            "from": 24,
+            "to": 18
+        },
+        {
+            "from": 24,
+            "to": 23
+        },
+        {
+            "from": 25,
+            "to": 18
+        },
+        {
+            "from": 25,
+            "to": 21
+        },
+        {
+            "from": 26,
+            "to": 11
+        },
+        {
+            "from": 26,
+            "to": 13
+        },
+        {
+            "from": 27,
+            "to": 11
+        },
+        {
+            "from": 27,
+            "to": 13
+        },
+        {
+            "from": 28,
+            "to": 11
+        },
+        {
+            "from": 28,
+            "to": 13
+        },
+        {
+            "from": 29,
+            "to": 11
+        },
+        {
+            "from": 29,
+            "to": 13
+        },
+        {
+            "from": 30,
+            "to": 26
+        },
+        {
+            "from": 30,
+            "to": 27
+        },
+        {
+            "from": 30,
+            "to": 28
+        },
+        {
+            "from": 30,
+            "to": 29
+        },
+        {
+            "from": 31,
+            "to": 30
+        },
+        {
+            "from": 32,
+            "to": 30
+        },
+        {
+            "from": 32,
+            "to": 31
+        },
+        {
+            "from": 33,
+            "to": 3
+        },
+        {
+            "from": 33,
+            "to": 18
+        },
+        {
+            "from": 33,
+            "to": 30
+        },
+        {
+            "from": 33,
+            "to": 31
+        },
+        {
+            "from": 34,
+            "to": 3
+        },
+        {
+            "from": 34,
+            "to": 18
+        },
+        {
+            "from": 34,
+            "to": 19
+        },
+        {
+            "from": 34,
+            "to": 21
+        },
+        {
+            "from": 34,
+            "to": 22
+        },
+        {
+            "from": 34,
+            "to": 24
+        },
+        {
+            "from": 35,
+            "to": 3
+        },
+        {
+            "from": 35,
+            "to": 26
+        },
+        {
+            "from": 36,
+            "to": 3
+        },
+        {
+            "from": 36,
+            "to": 26
+        },
+        {
+            "from": 37,
+            "to": 3
+        },
+        {
+            "from": 37,
+            "to": 29
+        },
+        {
+            "from": 37,
+            "to": 30
+        },
+        {
+            "from": 38,
+            "to": 3
+        },
+        {
+            "from": 38,
+            "to": 21
+        },
+        {
+            "from": 39,
+            "to": 3
+        },
+        {
+            "from": 39,
+            "to": 26
+        },
+        {
+            "from": 39,
+            "to": 27
+        },
+        {
+            "from": 39,
+            "to": 30
+        },
+        {
+            "from": 40,
+            "to": 3
+        },
+        {
+            "from": 40,
+            "to": 26
+        },
+        {
+            "from": 40,
+            "to": 27
+        },
+        {
+            "from": 41,
+            "to": 26
+        },
+        {
+            "from": 41,
+            "to": 30
+        },
+        {
+            "from": 42,
+            "to": 26
+        },
+        {
+            "from": 42,
+            "to": 41
+        },
+        {
+            "from": 43,
+            "to": 20
+        },
+        {
+            "from": 43,
+            "to": 42
+        },
+        {
+            "from": 44,
+            "to": 26
+        },
+        {
+            "from": 44,
+            "to": 41
+        },
+        {
+            "from": 44,
+            "to": 43
+        },
+        {
+            "from": 45,
+            "to": 26
+        },
+        {
+            "from": 45,
+            "to": 41
+        },
+        {
+            "from": 46,
+            "to": 26
+        },
+        {
+            "from": 46,
+            "to": 44
+        },
+        {
+            "from": 46,
+            "to": 45
+        },
+        {
+            "from": 47,
+            "to": 26
+        },
+        {
+            "from": 47,
+            "to": 44
+        },
+        {
+            "from": 47,
+            "to": 45
+        },
+        {
+            "from": 48,
+            "to": 26
+        },
+        {
+            "from": 48,
+            "to": 41
+        },
+        {
+            "from": 49,
+            "to": 27
+        },
+        {
+            "from": 50,
+            "to": 28
+        },
+        {
+            "from": 50,
+            "to": 29
+        },
+        {
+            "from": 51,
+            "to": 48
+        },
+        {
+            "from": 51,
+            "to": 49
+        },
+        {
+            "from": 51,
+            "to": 50
+        },
+        {
+            "from": 52,
+            "to": 49
+        },
+        {
+            "from": 52,
+            "to": 51
+        },
+        {
+            "from": 53,
+            "to": 42
+        },
+        {
+            "from": 53,
+            "to": 43
+        },
+        {
+            "from": 53,
+            "to": 51
+        },
+        {
+            "from": 54,
+            "to": 41
+        },
+        {
+            "from": 54,
+            "to": 42
+        },
+        {
+            "from": 54,
+            "to": 51
+        },
+        {
+            "from": 55,
+            "to": 27
+        },
+        {
+            "from": 55,
+            "to": 51
+        },
+        {
+            "from": 56,
+            "to": 29
+        },
+        {
+            "from": 56,
+            "to": 50
+        },
+        {
+            "from": 56,
+            "to": 51
+        },
+        {
+            "from": 57,
+            "to": 42
+        },
+        {
+            "from": 57,
+            "to": 51
+        },
+        {
+            "from": 58,
+            "to": 51
+        },
+        {
+            "from": 59,
+            "to": 51
+        },
+        {
+            "from": 60,
+            "to": 53
+        },
+        {
+            "from": 61,
+            "to": 20
+        },
+        {
+            "from": 61,
+            "to": 54
+        },
+        {
+            "from": 62,
+            "to": 20
+        },
+        {
+            "from": 62,
+            "to": 61
+        },
+        {
+            "from": 63,
+            "to": 41
+        },
+        {
+            "from": 63,
+            "to": 42
+        },
+        {
+            "from": 63,
+            "to": 61
+        },
+        {
+            "from": 64,
+            "to": 41
+        },
+        {
+            "from": 64,
+            "to": 48
+        },
+        {
+            "from": 64,
+            "to": 63
+        },
+        {
+            "from": 65,
+            "to": 43
+        },
+        {
+            "from": 65,
+            "to": 63
+        },
+        {
+            "from": 66,
+            "to": 41
+        },
+        {
+            "from": 66,
+            "to": 48
+        },
+        {
+            "from": 66,
+            "to": 64
+        },
+        {
+            "from": 67,
+            "to": 41
+        },
+        {
+            "from": 67,
+            "to": 42
+        },
+        {
+            "from": 67,
+            "to": 65
+        },
+        {
+            "from": 68,
+            "to": 41
+        },
+        {
+            "from": 68,
+            "to": 67
+        },
+        {
+            "from": 69,
+            "to": 41
+        },
+        {
+            "from": 69,
+            "to": 44
+        },
+        {
+            "from": 69,
+            "to": 68
+        },
+        {
+            "from": 70,
+            "to": 61
+        },
+        {
+            "from": 70,
+            "to": 62
+        },
+        {
+            "from": 70,
+            "to": 67
+        },
+        {
+            "from": 71,
+            "to": 60
+        },
+        {
+            "from": 71,
+            "to": 70
+        },
+        {
+            "from": 72,
+            "to": 1
+        },
+        {
+            "from": 72,
+            "to": 3
+        },
+        {
+            "from": 72,
+            "to": 5
+        },
+        {
+            "from": 73,
+            "to": 72
+        },
+        {
+            "from": 74,
+            "to": 18
+        },
+        {
+            "from": 74,
+            "to": 20
+        },
+        {
+            "from": 75,
+            "to": 20
+        },
+        {
+            "from": 75,
+            "to": 58
+        },
+        {
+            "from": 76,
+            "to": 58
+        },
+        {
+            "from": 76,
+            "to": 75
+        },
+        {
+            "from": 77,
+            "to": 33
+        },
+        {
+            "from": 77,
+            "to": 45
+        },
+        {
+            "from": 78,
+            "to": 33
+        },
+        {
+            "from": 78,
+            "to": 41
+        },
+        {
+            "from": 78,
+            "to": 42
+        },
+        {
+            "from": 79,
+            "to": 33
+        },
+        {
+            "from": 79,
+            "to": 34
+        },
+        {
+            "from": 80,
+            "to": 19
+        },
+        {
+            "from": 80,
+            "to": 79
+        },
+        {
+            "from": 81,
+            "to": 80
+        },
+        {
+            "from": 82,
+            "to": 33
+        },
+        {
+            "from": 82,
+            "to": 34
+        },
+        {
+            "from": 82,
+            "to": 80
+        },
+        {
+            "from": 83,
+            "to": 33
+        },
+        {
+            "from": 83,
+            "to": 82
+        },
+        {
+            "from": 84,
+            "to": 15
+        },
+        {
+            "from": 84,
+            "to": 33
+        },
+        {
+            "from": 84,
+            "to": 34
+        },
+        {
+            "from": 84,
+            "to": 35
+        },
+        {
+            "from": 84,
+            "to": 36
+        },
+        {
+            "from": 85,
+            "to": 3
+        },
+        {
+            "from": 85,
+            "to": 33
+        },
+        {
+            "from": 85,
+            "to": 34
+        },
+        {
+            "from": 85,
+            "to": 35
+        },
+        {
+            "from": 85,
+            "to": 36
+        },
+        {
+            "from": 85,
+            "to": 37
+        },
+        {
+            "from": 86,
+            "to": 33
+        },
+        {
+            "from": 86,
+            "to": 34
+        },
+        {
+            "from": 86,
+            "to": 35
+        },
+        {
+            "from": 86,
+            "to": 36
+        },
+        {
+            "from": 86,
+            "to": 37
+        },
+        {
+            "from": 86,
+            "to": 38
+        },
+        {
+            "from": 87,
+            "to": 86
+        },
+        {
+            "from": 88,
+            "to": 5
+        },
+        {
+            "from": 88,
+            "to": 9
+        },
+        {
+            "from": 88,
+            "to": 72
+        },
+        {
+            "from": 89,
+            "to": 88
+        },
+        {
+            "from": 90,
+            "to": 9
+        },
+        {
+            "from": 90,
+            "to": 88
+        },
+        {
+            "from": 91,
+            "to": 89
+        },
+        {
+            "from": 91,
+            "to": 90
+        },
+        {
+            "from": 92,
+            "to": 5
+        },
+        {
+            "from": 92,
+            "to": 72
+        },
+        {
+            "from": 92,
+            "to": 86
+        },
+        {
+            "from": 93,
+            "to": 73
+        },
+        {
+            "from": 93,
+            "to": 71
+        },
+        {
+            "from": 94,
+            "to": 33
+        },
+        {
+            "from": 94,
+            "to": 34
+        },
+        {
+            "from": 95,
+            "to": 33
+        },
+        {
+            "from": 95,
+            "to": 94
+        },
+        {
+            "from": 96,
+            "to": 33
+        },
+        {
+            "from": 96,
+            "to": 95
+        },
+        {
+            "from": 97,
+            "to": 41
+        },
+        {
+            "from": 97,
+            "to": 64
+        },
+        {
+            "from": 97,
+            "to": 67
+        },
+        {
+            "from": 98,
+            "to": 94
+        },
+        {
+            "from": 98,
+            "to": 97
+        },
+        {
+            "from": 99,
+            "to": 58
+        },
+        {
+            "from": 99,
+            "to": 76
+        },
+        {
+            "from": 100,
+            "to": 33
+        },
+        {
+            "from": 100,
+            "to": 99
+        },
+        {
+            "from": 101,
+            "to": 33
+        },
+        {
+            "from": 101,
+            "to": 34
+        },
+        {
+            "from": 101,
+            "to": 100
+        },
+        {
+            "from": 102,
+            "to": 33
+        },
+        {
+            "from": 102,
+            "to": 101
+        },
+        {
+            "from": 103,
+            "to": 34
+        },
+        {
+            "from": 103,
+            "to": 24
+        },
+        {
+            "from": 104,
+            "to": 34
+        },
+        {
+            "from": 104,
+            "to": 25
+        },
+        {
+            "from": 105,
+            "to": 33
+        },
+        {
+            "from": 105,
+            "to": 42
+        },
+        {
+            "from": 105,
+            "to": 43
+        },
+        {
+            "from": 106,
+            "to": 41
+        },
+        {
+            "from": 106,
+            "to": 54
+        },
+        {
+            "from": 106,
+            "to": 71
+        },
+        {
+            "from": 107,
+            "to": 41
+        },
+        {
+            "from": 107,
+            "to": 54
+        },
+        {
+            "from": 107,
+            "to": 61
+        },
+        {
+            "from": 108,
+            "to": 41
+        },
+        {
+            "from": 108,
+            "to": 54
+        },
+        {
+            "from": 108,
+            "to": 42
+        },
+        {
+            "from": 108,
+            "to": 43
+        },
+        {
+            "from": 109,
+            "to": 41
+        },
+        {
+            "from": 109,
+            "to": 54
+        },
+        {
+            "from": 109,
+            "to": 53
+        },
+        {
+            "from": 110,
+            "to": 41
+        },
+        {
+            "from": 110,
+            "to": 54
+        },
+        {
+            "from": 111,
+            "to": 41
+        },
+        {
+            "from": 111,
+            "to": 67
+        },
+        {
+            "from": 111,
+            "to": 97
+        },
+        {
+            "from": 112,
+            "to": 64
+        },
+        {
+            "from": 112,
+            "to": 66
+        },
+        {
+            "from": 112,
+            "to": 97
+        },
+        {
+            "from": 113,
+            "to": 67
+        },
+        {
+            "from": 113,
+            "to": 68
+        },
+        {
+            "from": 113,
+            "to": 69
+        },
+        {
+            "from": 114,
+            "to": 67
+        },
+        {
+            "from": 114,
+            "to": 113
+        },
+        {
+            "from": 115,
+            "to": 18
+        },
+        {
+            "from": 115,
+            "to": 19
+        },
+        {
+            "from": 116,
+            "to": 26
+        },
+        {
+            "from": 116,
+            "to": 27
+        },
+        {
+            "from": 116,
+            "to": 48
+        },
+        {
+            "from": 116,
+            "to": 49
+        },
+        {
+            "from": 117,
+            "to": 26
+        },
+        {
+            "from": 117,
+            "to": 27
+        },
+        {
+            "from": 117,
+            "to": 116
+        },
+        {
+            "from": 118,
+            "to": 41
+        },
+        {
+            "from": 118,
+            "to": 54
+        },
+        {
+            "from": 118,
+            "to": 110
+        },
+        {
+            "from": 119,
+            "to": 54
+        },
+        {
+            "from": 119,
+            "to": 110
+        },
+        {
+            "from": 119,
+            "to": 118
+        },
+        {
+            "from": 120,
+            "to": 72
+        },
+        {
+            "from": 120,
+            "to": 93
+        },
+        {
+            "from": 121,
+            "to": 73
+        },
+        {
+            "from": 121,
+            "to": 93
+        },
+        {
+            "from": 121,
+            "to": 120
+        },
+        {
+            "from": 122,
+            "to": 73
+        },
+        {
+            "from": 122,
+            "to": 121
+        },
+        {
+            "from": 123,
+            "to": 73
+        },
+        {
+            "from": 123,
+            "to": 122
+        },
+        {
+            "from": 124,
+            "to": 73
+        },
+        {
+            "from": 124,
+            "to": 123
+        },
+        {
+            "from": 125,
+            "to": 88
+        },
+        {
+            "from": 125,
+            "to": 89
+        },
+        {
+            "from": 126,
+            "to": 125
+        },
+        {
+            "from": 127,
+            "to": 31
+        },
+        {
+            "from": 127,
+            "to": 32
+        },
+        {
+            "from": 127,
+            "to": 88
+        },
+        {
+            "from": 128,
+            "to": 90
+        },
+        {
+            "from": 128,
+            "to": 127
+        },
+        {
+            "from": 129,
+            "to": 3
+        },
+        {
+            "from": 129,
+            "to": 101
+        },
+        {
+            "from": 130,
+            "to": 10
+        },
+        {
+            "from": 130,
+            "to": 129
+        },
+        {
+            "from": 131,
+            "to": 3
+        },
+        {
+            "from": 131,
+            "to": 10
+        },
+        {
+            "from": 132,
+            "to": 10
+        },
+        {
+            "from": 132,
+            "to": 92
+        },
+        {
+            "from": 133,
+            "to": 132
+        },
+        {
+            "from": 134,
+            "to": 10
+        },
+        {
+            "from": 134,
+            "to": 131
+        },
+        {
+            "from": 135,
+            "to": 8
+        },
+        {
+            "from": 135,
+            "to": 9
+        },
+        {
+            "from": 135,
+            "to": 134
+        },
+        {
+            "from": 136,
+            "to": 128
+        },
+        {
+            "from": 136,
+            "to": 130
+        },
+        {
+            "from": 136,
+            "to": 132
+        },
+        {
+            "from": 137,
+            "to": 3
+        },
+        {
+            "from": 137,
+            "to": 6
+        },
+        {
+            "from": 138,
+            "to": 137
+        },
+        {
+            "from": 139,
+            "to": 73
+        },
+        {
+            "from": 139,
+            "to": 93
+        },
+        {
+            "from": 139,
+            "to": 122
+        },
+        {
+            "from": 140,
+            "to": 73
+        },
+        {
+            "from": 140,
+            "to": 121
+        },
+        {
+            "from": 140,
+            "to": 139
+        },
+        {
+            "from": 141,
+            "to": 136
+        },
+        {
+            "from": 141,
+            "to": 140
+        },
+        {
+            "from": 142,
+            "to": 107
+        },
+        {
+            "from": 142,
+            "to": 136
+        },
+        {
+            "from": 142,
+            "to": 140
+        },
+        {
+            "from": 143,
+            "to": 106
+        },
+        {
+            "from": 143,
+            "to": 108
+        },
+        {
+            "from": 143,
+            "to": 136
+        },
+        {
+            "from": 143,
+            "to": 140
+        },
+        {
+            "from": 144,
+            "to": 91
+        },
+        {
+            "from": 144,
+            "to": 92
+        },
+        {
+            "from": 144,
+            "to": 132
+        },
+        {
+            "from": 145,
+            "to": 140
+        },
+        {
+            "from": 145,
+            "to": 141
+        },
+        {
+            "from": 145,
+            "to": 142
+        },
+        {
+            "from": 145,
+            "to": 143
+        },
+        {
+            "from": 146,
+            "to": 124
+        },
+        {
+            "from": 146,
+            "to": 136
+        },
+        {
+            "from": 147,
+            "to": 128
+        },
+        {
+            "from": 147,
+            "to": 146
+        },
+        {
+            "from": 148,
+            "to": 128
+        },
+        {
+            "from": 148,
+            "to": 146
+        },
+        {
+            "from": 149,
+            "to": 72
+        },
+        {
+            "from": 149,
+            "to": 132
+        },
+        {
+            "from": 149,
+            "to": 148
+        },
+        {
+            "from": 150,
+            "to": 94
+        },
+        {
+            "from": 150,
+            "to": 123
+        },
+        {
+            "from": 150,
+            "to": 149
+        },
+        {
+            "from": 151,
+            "to": 72
+        },
+        {
+            "from": 151,
+            "to": 94
+        },
+        {
+            "from": 151,
+            "to": 123
+        },
+        {
+            "from": 152,
+            "to": 127
+        },
+        {
+            "from": 152,
+            "to": 128
+        },
+        {
+            "from": 153,
+            "to": 125
+        },
+        {
+            "from": 153,
+            "to": 126
+        },
+        {
+            "from": 154,
+            "to": 23
+        },
+        {
+            "from": 154,
+            "to": 128
+        },
+        {
+            "from": 154,
+            "to": 152
+        },
+        {
+            "from": 155,
+            "to": 128
+        },
+        {
+            "from": 155,
+            "to": 152
+        },
+        {
+            "from": 155,
+            "to": 153
+        },
+        {
+            "from": 156,
+            "to": 3
+        },
+        {
+            "from": 156,
+            "to": 87
+        },
+        {
+            "from": 157,
+            "to": 87
+        },
+        {
+            "from": 157,
+            "to": 156
+        },
+        {
+            "from": 158,
+            "to": 156
+        },
+        {
+            "from": 158,
+            "to": 157
+        },
+        {
+            "from": 159,
+            "to": 41
+        },
+        {
+            "from": 159,
+            "to": 97
+        },
+        {
+            "from": 159,
+            "to": 126
+        },
+        {
+            "from": 160,
+            "to": 159
+        },
+        {
+            "from": 161,
+            "to": 72
+        },
+        {
+            "from": 161,
+            "to": 156
+        },
+        {
+            "from": 161,
+            "to": 158
+        },
+        {
+            "from": 162,
+            "to": 18
+        },
+        {
+            "from": 162,
+            "to": 87
+        },
+        {
+            "from": 162,
+            "to": 157
+        },
+        {
+            "from": 163,
+            "to": 135
+        },
+        {
+            "from": 163,
+            "to": 156
+        },
+        {
+            "from": 164,
+            "to": 113
+        },
+        {
+            "from": 164,
+            "to": 125
+        },
+        {
+            "from": 164,
+            "to": 126
+        },
+        {
+            "from": 164,
+            "to": 156
+        },
+        {
+            "from": 165,
+            "to": 156
+        },
+        {
+            "from": 165,
+            "to": 163
+        },
+        {
+            "from": 166,
+            "to": 136
+        },
+        {
+            "from": 166,
+            "to": 140
+        },
+        {
+            "from": 166,
+            "to": 155
+        },
+        {
+            "from": 166,
+            "to": 161
+        },
+        {
+            "from": 167,
+            "to": 124
+        },
+        {
+            "from": 167,
+            "to": 140
+        },
+        {
+            "from": 168,
+            "to": 9
+        },
+        {
+            "from": 168,
+            "to": 10
+        },
+        {
+            "from": 168,
+            "to": 124
+        },
+        {
+            "from": 168,
+            "to": 144
+        },
+        {
+            "from": 169,
+            "to": 124
+        },
+        {
+            "from": 169,
+            "to": 132
+        },
+        {
+            "from": 169,
+            "to": 144
+        },
+        {
+            "from": 170,
+            "to": 132
+        },
+        {
+            "from": 170,
+            "to": 169
+        },
+        {
+            "from": 171,
+            "to": 132
+        },
+        {
+            "from": 171,
+            "to": 134
+        },
+        {
+            "from": 172,
+            "to": 132
+        },
+        {
+            "from": 172,
+            "to": 133
+        },
+        {
+            "from": 173,
+            "to": 16
+        },
+        {
+            "from": 173,
+            "to": 134
+        },
+        {
+            "from": 173,
+            "to": 171
+        },
+        {
+            "from": 174,
+            "to": 10
+        },
+        {
+            "from": 174,
+            "to": 134
+        },
+        {
+            "from": 175,
+            "to": 134
+        },
+        {
+            "from": 175,
+            "to": 174
+        },
+        {
+            "from": 176,
+            "to": 6
+        },
+        {
+            "from": 176,
+            "to": 9
+        },
+        {
+            "from": 176,
+            "to": 10
+        },
+        {
+            "from": 176,
+            "to": 134
+        },
+        {
+            "from": 177,
+            "to": 10
+        },
+        {
+            "from": 177,
+            "to": 130
+        },
+        {
+            "from": 177,
+            "to": 131
+        },
+        {
+            "from": 178,
+            "to": 132
+        },
+        {
+            "from": 178,
+            "to": 177
+        },
+        {
+            "from": 179,
+            "to": 123
+        },
+        {
+            "from": 179,
+            "to": 124
+        },
+        {
+            "from": 179,
+            "to": 145
+        },
+        {
+            "from": 179,
+            "to": 168
+        },
+        {
+            "from": 180,
+            "to": 124
+        },
+        {
+            "from": 180,
+            "to": 168
+        },
+        {
+            "from": 181,
+            "to": 176
+        },
+        {
+            "from": 181,
+            "to": 180
+        },
+        {
+            "from": 182,
+            "to": 176
+        },
+        {
+            "from": 182,
+            "to": 181
+        },
+        {
+            "from": 183,
+            "to": 140
+        },
+        {
+            "from": 183,
+            "to": 145
+        },
+        {
+            "from": 184,
+            "to": 183
+        },
+        {
+            "from": 185,
+            "to": 177
+        },
+        {
+            "from": 185,
+            "to": 183
+        },
+        {
+            "from": 185,
+            "to": 184
+        },
+        {
+            "from": 186,
+            "to": 41
+        },
+        {
+            "from": 186,
+            "to": 67
+        },
+        {
+            "from": 186,
+            "to": 97
+        },
+        {
+            "from": 186,
+            "to": 184
+        },
+        {
+            "from": 187,
+            "to": 183
+        },
+        {
+            "from": 187,
+            "to": 186
+        },
+        {
+            "from": 188,
+            "to": 180
+        },
+        {
+            "from": 188,
+            "to": 187
+        },
+        {
+            "from": 189,
+            "to": 156
+        },
+        {
+            "from": 189,
+            "to": 157
+        },
+        {
+            "from": 189,
+            "to": 158
+        },
+        {
+            "from": 189,
+            "to": 161
+        },
+        {
+            "from": 190,
+            "to": 87
+        },
+        {
+            "from": 190,
+            "to": 157
+        },
+        {
+            "from": 190,
+            "to": 189
+        },
+        {
+            "from": 191,
+            "to": 87
+        },
+        {
+            "from": 191,
+            "to": 157
+        },
+        {
+            "from": 191,
+            "to": 189
+        },
+        {
+            "from": 192,
+            "to": 165
+        },
+        {
+            "from": 192,
+            "to": 189
+        },
+        {
+            "from": 192,
+            "to": 190
+        },
+        {
+            "from": 192,
+            "to": 191
+        },
+        {
+            "from": 193,
+            "to": 183
+        },
+        {
+            "from": 193,
+            "to": 185
+        },
+        {
+            "from": 193,
+            "to": 189
+        },
+        {
+            "from": 194,
+            "to": 91
+        },
+        {
+            "from": 194,
+            "to": 143
+        },
+        {
+            "from": 194,
+            "to": 144
+        },
+        {
+            "from": 195,
+            "to": 144
+        },
+        {
+            "from": 195,
+            "to": 194
+        },
+        {
+            "from": 196,
+            "to": 121
+        },
+        {
+            "from": 196,
+            "to": 140
+        },
+        {
+            "from": 196,
+            "to": 168
+        },
+        {
+            "from": 197,
+            "to": 6
+        },
+        {
+            "from": 197,
+            "to": 10
+        },
+        {
+            "from": 197,
+            "to": 176
+        },
+        {
+            "from": 198,
+            "to": 132
+        },
+        {
+            "from": 198,
+            "to": 177
+        },
+        {
+            "from": 199,
+            "to": 10
+        },
+        {
+            "from": 199,
+            "to": 177
+        },
+        {
+            "from": 200,
+            "to": 5
+        },
+        {
+            "from": 200,
+            "to": 10
+        },
+        {
+            "from": 200,
+            "to": 72
+        },
+        {
+            "from": 200,
+            "to": 140
+        },
+        {
+            "from": 200,
+            "to": 199
+        }
+    ]
+}
