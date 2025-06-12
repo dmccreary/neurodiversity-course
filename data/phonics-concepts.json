@@ -1,0 +1,834 @@
+{
+  "phonicsConcepts": [
+    {
+      "phonicsConceptID": 1,
+      "conceptName": "Rhyme recognition and production",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 2,
+      "conceptName": "Syllable counting and segmentation",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 3,
+      "conceptName": "Initial sound identification",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 4,
+      "conceptName": "Final sound identification",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 5,
+      "conceptName": "Middle sound identification",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 6,
+      "conceptName": "Phoneme blending (2-3 sounds)",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 7,
+      "conceptName": "Phoneme segmentation (2-3 sounds)",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 8,
+      "conceptName": "Phoneme manipulation (deletion, substitution)",
+      "phase": "Phase 1: Phonological Awareness Foundation"
+    },
+    {
+      "phonicsConceptID": 9,
+      "conceptName": "/m/ - m",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 10,
+      "conceptName": "/s/ - s",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 11,
+      "conceptName": "/t/ - t",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 12,
+      "conceptName": "/p/ - p",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 13,
+      "conceptName": "/n/ - n",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 14,
+      "conceptName": "/c/ - c (hard sound)",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 15,
+      "conceptName": "/b/ - b",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 16,
+      "conceptName": "/f/ - f",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 17,
+      "conceptName": "/d/ - d",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 18,
+      "conceptName": "/r/ - r",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 19,
+      "conceptName": "/h/ - h",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 20,
+      "conceptName": "/g/ - g (hard sound)",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 21,
+      "conceptName": "/l/ - l",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 22,
+      "conceptName": "/k/ - k",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 23,
+      "conceptName": "/j/ - j",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 24,
+      "conceptName": "/w/ - w",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 25,
+      "conceptName": "/v/ - v",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 26,
+      "conceptName": "/y/ - y (consonant sound)",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 27,
+      "conceptName": "/z/ - z",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 28,
+      "conceptName": "/qu/ - qu",
+      "phase": "Phase 2: Letter-Sound Correspondence (Single Consonants)"
+    },
+    {
+      "phonicsConceptID": 29,
+      "conceptName": "/a/ - a (as in cat)",
+      "phase": "Phase 3: Short Vowels"
+    },
+    {
+      "phonicsConceptID": 30,
+      "conceptName": "/i/ - i (as in sit)",
+      "phase": "Phase 3: Short Vowels"
+    },
+    {
+      "phonicsConceptID": 31,
+      "conceptName": "/o/ - o (as in hot)",
+      "phase": "Phase 3: Short Vowels"
+    },
+    {
+      "phonicsConceptID": 32,
+      "conceptName": "/u/ - u (as in cup)",
+      "phase": "Phase 3: Short Vowels"
+    },
+    {
+      "phonicsConceptID": 33,
+      "conceptName": "/e/ - e (as in bed)",
+      "phase": "Phase 3: Short Vowels"
+    },
+    {
+      "phonicsConceptID": 34,
+      "conceptName": "CVC words with /a/ (cat, map, sad)",
+      "phase": "Phase 4: Basic CVC Patterns"
+    },
+    {
+      "phonicsConceptID": 35,
+      "conceptName": "CVC words with /i/ (sit, big, win)",
+      "phase": "Phase 4: Basic CVC Patterns"
+    },
+    {
+      "phonicsConceptID": 36,
+      "conceptName": "CVC words with /o/ (hot, dog, box)",
+      "phase": "Phase 4: Basic CVC Patterns"
+    },
+    {
+      "phonicsConceptID": 37,
+      "conceptName": "CVC words with /u/ (cup, run, bus)",
+      "phase": "Phase 4: Basic CVC Patterns"
+    },
+    {
+      "phonicsConceptID": 38,
+      "conceptName": "CVC words with /e/ (bed, red, ten)",
+      "phase": "Phase 4: Basic CVC Patterns"
+    },
+    {
+      "phonicsConceptID": 39,
+      "conceptName": "/ch/ - ch",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 40,
+      "conceptName": "/sh/ - sh",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 41,
+      "conceptName": "/th/ - th (voiced)",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 42,
+      "conceptName": "/th/ - th (unvoiced)",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 43,
+      "conceptName": "/wh/ - wh",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 44,
+      "conceptName": "/ck/ - ck (final position)",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 45,
+      "conceptName": "/ng/ - ng",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 46,
+      "conceptName": "/nk/ - nk",
+      "phase": "Phase 5: Consonant Digraphs"
+    },
+    {
+      "phonicsConceptID": 47,
+      "conceptName": "/bl/ - bl",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 48,
+      "conceptName": "/cl/ - cl",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 49,
+      "conceptName": "/fl/ - fl",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 50,
+      "conceptName": "/gl/ - gl",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 51,
+      "conceptName": "/pl/ - pl",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 52,
+      "conceptName": "/sl/ - sl",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 53,
+      "conceptName": "/br/ - br",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 54,
+      "conceptName": "/cr/ - cr",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 55,
+      "conceptName": "/dr/ - dr",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 56,
+      "conceptName": "/fr/ - fr",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 57,
+      "conceptName": "/gr/ - gr",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 58,
+      "conceptName": "/pr/ - pr",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 59,
+      "conceptName": "/tr/ - tr",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 60,
+      "conceptName": "/sc/ - sc",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 61,
+      "conceptName": "/sk/ - sk",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 62,
+      "conceptName": "/sm/ - sm",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 63,
+      "conceptName": "/sn/ - sn",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 64,
+      "conceptName": "/sp/ - sp",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 65,
+      "conceptName": "/st/ - st",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 66,
+      "conceptName": "/sw/ - sw",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 67,
+      "conceptName": "/tw/ - tw",
+      "phase": "Phase 6: Consonant Blends (Initial)"
+    },
+    {
+      "phonicsConceptID": 68,
+      "conceptName": "/ct/ - ct",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 69,
+      "conceptName": "/ft/ - ft",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 70,
+      "conceptName": "/lt/ - lt",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 71,
+      "conceptName": "/mp/ - mp",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 72,
+      "conceptName": "/nd/ - nd",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 73,
+      "conceptName": "/nt/ - nt",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 74,
+      "conceptName": "/pt/ - pt",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 75,
+      "conceptName": "/sk/ - sk (final)",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 76,
+      "conceptName": "/sp/ - sp (final)",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 77,
+      "conceptName": "/st/ - st (final)",
+      "phase": "Phase 7: Consonant Blends (Final)"
+    },
+    {
+      "phonicsConceptID": 78,
+      "conceptName": "/scr/ - scr",
+      "phase": "Phase 8: Three-Letter Blends"
+    },
+    {
+      "phonicsConceptID": 79,
+      "conceptName": "/spr/ - spr",
+      "phase": "Phase 8: Three-Letter Blends"
+    },
+    {
+      "phonicsConceptID": 80,
+      "conceptName": "/str/ - str",
+      "phase": "Phase 8: Three-Letter Blends"
+    },
+    {
+      "phonicsConceptID": 81,
+      "conceptName": "/spl/ - spl",
+      "phase": "Phase 8: Three-Letter Blends"
+    },
+    {
+      "phonicsConceptID": 82,
+      "conceptName": "/squ/ - squ",
+      "phase": "Phase 8: Three-Letter Blends"
+    },
+    {
+      "phonicsConceptID": 83,
+      "conceptName": "/ā/ - a_e (cake, make)",
+      "phase": "Phase 9: Long Vowels (CVCe Pattern)"
+    },
+    {
+      "phonicsConceptID": 84,
+      "conceptName": "/ī/ - i_e (bike, time)",
+      "phase": "Phase 9: Long Vowels (CVCe Pattern)"
+    },
+    {
+      "phonicsConceptID": 85,
+      "conceptName": "/ō/ - o_e (bone, hope)",
+      "phase": "Phase 9: Long Vowels (CVCe Pattern)"
+    },
+    {
+      "phonicsConceptID": 86,
+      "conceptName": "/ū/ - u_e (cube, tune)",
+      "phase": "Phase 9: Long Vowels (CVCe Pattern)"
+    },
+    {
+      "phonicsConceptID": 87,
+      "conceptName": "/ē/ - e_e (these, Pete)",
+      "phase": "Phase 9: Long Vowels (CVCe Pattern)"
+    },
+    {
+      "phonicsConceptID": 88,
+      "conceptName": "/ā/ - ai (rain, mail)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 89,
+      "conceptName": "/ā/ - ay (play, day)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 90,
+      "conceptName": "/ē/ - ea (read, meat)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 91,
+      "conceptName": "/ē/ - ee (tree, see)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 92,
+      "conceptName": "/ē/ - ie (field, piece)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 93,
+      "conceptName": "/ī/ - ie (pie, tie)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 94,
+      "conceptName": "/ī/ - igh (light, night)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 95,
+      "conceptName": "/ī/ - y (my, fly)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 96,
+      "conceptName": "/ō/ - oa (boat, coat)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 97,
+      "conceptName": "/ō/ - ow (show, know)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 98,
+      "conceptName": "/ū/ - ue (blue, true)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 99,
+      "conceptName": "/ū/ - ew (new, flew)",
+      "phase": "Phase 10: Long Vowel Teams"
+    },
+    {
+      "phonicsConceptID": 100,
+      "conceptName": "/ar/ - ar (car, star)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 101,
+      "conceptName": "/er/ - er (her, fern)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 102,
+      "conceptName": "/ir/ - ir (bird, girl)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 103,
+      "conceptName": "/or/ - or (for, corn)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 104,
+      "conceptName": "/ur/ - ur (burn, turn)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 105,
+      "conceptName": "/air/ - air (fair, hair)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 106,
+      "conceptName": "/are/ - are (care, share)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 107,
+      "conceptName": "/ear/ - ear (bear, pear)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 108,
+      "conceptName": "/eer/ - eer (deer, cheer)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 109,
+      "conceptName": "/ear/ - ear (hear, fear)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 110,
+      "conceptName": "/ire/ - ire (fire, tire)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 111,
+      "conceptName": "/ore/ - ore (more, store)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 112,
+      "conceptName": "/ure/ - ure (sure, pure)",
+      "phase": "Phase 11: R-Controlled Vowels"
+    },
+    {
+      "phonicsConceptID": 113,
+      "conceptName": "/oi/ - oi (boil, coin)",
+      "phase": "Phase 12: Diphthongs"
+    },
+    {
+      "phonicsConceptID": 114,
+      "conceptName": "/oy/ - oy (boy, toy)",
+      "phase": "Phase 12: Diphthongs"
+    },
+    {
+      "phonicsConceptID": 115,
+      "conceptName": "/ou/ - ou (house, mouse)",
+      "phase": "Phase 12: Diphthongs"
+    },
+    {
+      "phonicsConceptID": 116,
+      "conceptName": "/ow/ - ow (cow, now)",
+      "phase": "Phase 12: Diphthongs"
+    },
+    {
+      "phonicsConceptID": 117,
+      "conceptName": "/au/ - au (haul, sauce)",
+      "phase": "Phase 12: Diphthongs"
+    },
+    {
+      "phonicsConceptID": 118,
+      "conceptName": "/aw/ - aw (saw, law)",
+      "phase": "Phase 12: Diphthongs"
+    },
+    {
+      "phonicsConceptID": 119,
+      "conceptName": "/oo/ - oo (book, look) - short sound",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 120,
+      "conceptName": "/oo/ - oo (moon, soon) - long sound",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 121,
+      "conceptName": "/ou/ - ou (could, would)",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 122,
+      "conceptName": "/a/ - al (talk, walk)",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 123,
+      "conceptName": "/o/ - wa (want, wash)",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 124,
+      "conceptName": "/u/ - o (son, come)",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 125,
+      "conceptName": "/i/ - y (gym, myth)",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 126,
+      "conceptName": "/ē/ - y (happy, baby)",
+      "phase": "Phase 13: Other Vowel Patterns"
+    },
+    {
+      "phonicsConceptID": 127,
+      "conceptName": "Silent b (lamb, thumb)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 128,
+      "conceptName": "Silent l (half, talk)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 129,
+      "conceptName": "Silent t (castle, listen)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 130,
+      "conceptName": "Silent w (write, wrong)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 131,
+      "conceptName": "Silent k (knee, knife)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 132,
+      "conceptName": "Silent h (hour, honest)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 133,
+      "conceptName": "Silent gh (night, caught)",
+      "phase": "Phase 14: Silent Letters"
+    },
+    {
+      "phonicsConceptID": 134,
+      "conceptName": "/f/ - ph (phone, graph)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 135,
+      "conceptName": "/k/ - ch (school, echo)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 136,
+      "conceptName": "/sh/ - ti (nation, station)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 137,
+      "conceptName": "/sh/ - ci (special, social)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 138,
+      "conceptName": "/zh/ - si (vision, measure)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 139,
+      "conceptName": "/j/ - dge (bridge, judge)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 140,
+      "conceptName": "/j/ - ge (age, cage)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 141,
+      "conceptName": "/s/ - ce (dance, mice)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 142,
+      "conceptName": "/z/ - se (noise, rose)",
+      "phase": "Phase 15: Advanced Consonant Patterns"
+    },
+    {
+      "phonicsConceptID": 143,
+      "conceptName": "Closed syllables (cat, napkin)",
+      "phase": "Phase 16: Syllable Types"
+    },
+    {
+      "phonicsConceptID": 144,
+      "conceptName": "Open syllables (me, baby)",
+      "phase": "Phase 16: Syllable Types"
+    },
+    {
+      "phonicsConceptID": 145,
+      "conceptName": "Magic E syllables (cake, dispute)",
+      "phase": "Phase 16: Syllable Types"
+    },
+    {
+      "phonicsConceptID": 146,
+      "conceptName": "Vowel team syllables (rain, freedom)",
+      "phase": "Phase 16: Syllable Types"
+    },
+    {
+      "phonicsConceptID": 147,
+      "conceptName": "R-controlled syllables (car, turtle)",
+      "phase": "Phase 16: Syllable Types"
+    },
+    {
+      "phonicsConceptID": 148,
+      "conceptName": "Consonant-le syllables (table, candle)",
+      "phase": "Phase 16: Syllable Types"
+    },
+    {
+      "phonicsConceptID": 149,
+      "conceptName": "/tion/ - tion (nation, vacation)",
+      "phase": "Phase 17: Advanced Phonics Patterns"
+    },
+    {
+      "phonicsConceptID": 150,
+      "conceptName": "/sion/ - sion (mission, tension)",
+      "phase": "Phase 17: Advanced Phonics Patterns"
+    },
+    {
+      "phonicsConceptID": 151,
+      "conceptName": "/ture/ - ture (picture, nature)",
+      "phase": "Phase 17: Advanced Phonics Patterns"
+    },
+    {
+      "phonicsConceptID": 152,
+      "conceptName": "/sure/ - sure (measure, treasure)",
+      "phase": "Phase 17: Advanced Phonics Patterns"
+    },
+    {
+      "phonicsConceptID": 153,
+      "conceptName": "/cious/ - cious (precious, delicious)",
+      "phase": "Phase 17: Advanced Phonics Patterns"
+    },
+    {
+      "phonicsConceptID": 154,
+      "conceptName": "/tious/ - tious (cautious, ambitious)",
+      "phase": "Phase 17: Advanced Phonics Patterns"
+    },
+    {
+      "phonicsConceptID": 155,
+      "conceptName": "Inflectional endings: -s, -es",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 156,
+      "conceptName": "Inflectional endings: -ed (3 sounds)",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 157,
+      "conceptName": "Inflectional endings: -ing",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 158,
+      "conceptName": "Inflectional endings: -er, -est",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 159,
+      "conceptName": "Prefixes: un-, re-, pre-",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 160,
+      "conceptName": "Prefixes: dis-, mis-, over-",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 161,
+      "conceptName": "Prefixes: in-, im-, il-, ir-",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 162,
+      "conceptName": "Suffixes: -ly, -ful, -less",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 163,
+      "conceptName": "Suffixes: -ment, -ness, -able",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 164,
+      "conceptName": "Root words and word families",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 165,
+      "conceptName": "Compound words",
+      "phase": "Phase 18: Morphological Patterns"
+    },
+    {
+      "phonicsConceptID": 166,
+      "conceptName": "Contractions with apostrophes",
+      "phase": "Phase 18: Morphological Patterns"
+    }
+  ]
+}

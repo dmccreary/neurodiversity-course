@@ -1,0 +1,254 @@
+{
+  "GrovesLiteracyFrameworkRules": [
+    {
+      "id": 1,
+      "category": "Instruction",
+      "rule": "Always teach phonics explicitly\u2014never assume students will infer sound-symbol relationships."
+    },
+    {
+      "id": 2,
+      "category": "Instruction",
+      "rule": "Follow a structured, sequential scope and sequence."
+    },
+    {
+      "id": 3,
+      "category": "Instruction",
+      "rule": "Ensure every new skill builds on previously mastered content."
+    },
+    {
+      "id": 4,
+      "category": "Instruction",
+      "rule": "Introduce phonological awareness activities daily."
+    },
+    {
+      "id": 5,
+      "category": "Instruction",
+      "rule": "Always integrate phoneme-grapheme correspondence in early lessons."
+    },
+    {
+      "id": 6,
+      "category": "Instruction",
+      "rule": "Avoid teaching 'guessing from context' as a decoding strategy."
+    },
+    {
+      "id": 7,
+      "category": "Instruction",
+      "rule": "Use decodable texts for practice\u2014not leveled texts in early stages."
+    },
+    {
+      "id": 8,
+      "category": "Instruction",
+      "rule": "Teach syllable types systematically (e.g., closed, open, magic-e)."
+    },
+    {
+      "id": 9,
+      "category": "Instruction",
+      "rule": "Reinforce spelling patterns as a tool for decoding."
+    },
+    {
+      "id": 10,
+      "category": "Instruction",
+      "rule": "Always teach high-frequency irregular words explicitly."
+    },
+    {
+      "id": 11,
+      "category": "Engagement",
+      "rule": "Include auditory, visual, and kinesthetic input in every lesson."
+    },
+    {
+      "id": 12,
+      "category": "Engagement",
+      "rule": "Ask students to say sounds while tracing letters with fingers."
+    },
+    {
+      "id": 13,
+      "category": "Engagement",
+      "rule": "Use tapping or finger-stretching to break apart phonemes."
+    },
+    {
+      "id": 14,
+      "category": "Engagement",
+      "rule": "Reinforce sound production with mouth pictures or mirror exercises."
+    },
+    {
+      "id": 15,
+      "category": "Engagement",
+      "rule": "Provide visual cues for letter formation directionality."
+    },
+    {
+      "id": 16,
+      "category": "Engagement",
+      "rule": "Use manipulatives (virtual tiles or cards) for sound blending."
+    },
+    {
+      "id": 17,
+      "category": "Engagement",
+      "rule": "Reinforce patterns through rhythm and music where appropriate."
+    },
+    {
+      "id": 18,
+      "category": "Engagement",
+      "rule": "Use color-coded highlighting for vowels, digraphs, and blends."
+    },
+    {
+      "id": 19,
+      "category": "Engagement",
+      "rule": "Provide real-time feedback on articulation and blending."
+    },
+    {
+      "id": 20,
+      "category": "Engagement",
+      "rule": "Break lessons into short, focused segments with repetition."
+    },
+    {
+      "id": 21,
+      "category": "Progress Monitoring",
+      "rule": "Begin every session with a review of mastered material."
+    },
+    {
+      "id": 22,
+      "category": "Progress Monitoring",
+      "rule": "Assess oral reading fluency weekly using benchmark passages."
+    },
+    {
+      "id": 23,
+      "category": "Progress Monitoring",
+      "rule": "Track student errors by error type (e.g., omission, substitution)."
+    },
+    {
+      "id": 24,
+      "category": "Progress Monitoring",
+      "rule": "Re-teach any skill not mastered with >80% accuracy."
+    },
+    {
+      "id": 25,
+      "category": "Progress Monitoring",
+      "rule": "Adapt the pace based on mastery\u2014not time or curriculum pacing."
+    },
+    {
+      "id": 26,
+      "category": "Progress Monitoring",
+      "rule": "Continuously adjust difficulty based on student's recent performance."
+    },
+    {
+      "id": 27,
+      "category": "Progress Monitoring",
+      "rule": "Use running records or AI-driven reading-aloud tasks for analysis."
+    },
+    {
+      "id": 28,
+      "category": "Progress Monitoring",
+      "rule": "Celebrate and call out micro-gains regularly to boost confidence."
+    },
+    {
+      "id": 29,
+      "category": "Progress Monitoring",
+      "rule": "Flag signs of cognitive overload and reduce instructional load accordingly."
+    },
+    {
+      "id": 30,
+      "category": "Progress Monitoring",
+      "rule": "Use spaced repetition and retrieval practice to ensure retention."
+    },
+    {
+      "id": 31,
+      "category": "Individualization",
+      "rule": "Adjust pacing based on the student\u2019s processing speed and stamina."
+    },
+    {
+      "id": 32,
+      "category": "Individualization",
+      "rule": "Provide extra practice on letter reversals (b/d, p/q)."
+    },
+    {
+      "id": 33,
+      "category": "Individualization",
+      "rule": "Use text-to-speech tools when focus is comprehension, not decoding."
+    },
+    {
+      "id": 34,
+      "category": "Individualization",
+      "rule": "Modify content complexity while preserving phonics targets."
+    },
+    {
+      "id": 35,
+      "category": "Individualization",
+      "rule": "Offer choice of reading materials when practicing fluency."
+    },
+    {
+      "id": 36,
+      "category": "Individualization",
+      "rule": "Avoid punishments for decoding mistakes\u2014use corrections as teachable moments."
+    },
+    {
+      "id": 37,
+      "category": "Individualization",
+      "rule": "Adjust instruction if a student is not progressing after three sessions."
+    },
+    {
+      "id": 38,
+      "category": "Individualization",
+      "rule": "Incorporate student interests into word lists and passages."
+    },
+    {
+      "id": 39,
+      "category": "Individualization",
+      "rule": "Provide extra review if student shows signs of regression."
+    },
+    {
+      "id": 40,
+      "category": "Individualization",
+      "rule": "Scaffold complex tasks into smaller manageable steps."
+    },
+    {
+      "id": 41,
+      "category": "AI Behavior",
+      "rule": "Ask diagnostic questions before beginning a lesson."
+    },
+    {
+      "id": 42,
+      "category": "AI Behavior",
+      "rule": "Provide immediate, corrective feedback on decoding attempts."
+    },
+    {
+      "id": 43,
+      "category": "AI Behavior",
+      "rule": "Repeat directions and reinforce key ideas when prompted."
+    },
+    {
+      "id": 44,
+      "category": "AI Behavior",
+      "rule": "Personalize lessons by remembering prior student progress."
+    },
+    {
+      "id": 45,
+      "category": "AI Behavior",
+      "rule": "Detect and respond to signs of student frustration or fatigue."
+    },
+    {
+      "id": 46,
+      "category": "AI Behavior",
+      "rule": "Encourage metacognition by asking students how they arrived at an answer."
+    },
+    {
+      "id": 47,
+      "category": "AI Behavior",
+      "rule": "Offer read-aloud modeling for unfamiliar words or passages."
+    },
+    {
+      "id": 48,
+      "category": "AI Behavior",
+      "rule": "Generate customized decodable practice words based on mastered phonics rules."
+    },
+    {
+      "id": 49,
+      "category": "AI Behavior",
+      "rule": "Log every interaction to build a comprehensive student profile."
+    },
+    {
+      "id": 50,
+      "category": "AI Behavior",
+      "rule": "End each session with a strength-based summary and next steps."
+    }
+  ]
+}

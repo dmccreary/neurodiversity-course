@@ -8,14 +8,20 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
+  
   - Prompts:
-    - prompts/index.md
-    - prompts/concept-enumeration.md
-    - prompts/concept-taxonomy.md
-    - prompts/course-description.md
+    - Intro: prompts/index.md
+    - Concept Enumeration: prompts/concept-enumeration.md
+    - Concept Taxonomy: prompts/concept-taxonomy.md
+    - Course Description: prompts/course-description.md
+    - Glossary: prompts/glossary.md
+    - Thought Leaders: prompts/thought-leaders.md
+    - GLF Chatbot: prompts/glf-chatbot.md
+    - List Phonics Concepts: prompts/phonics-concept-lest.md
+  
   - MicroSims:
-    - sims/index.md
-    - sims/learning-graph/index.md
+    - Intro: sims/index.md
+    - Learning Graph: sims/learning-graph/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md

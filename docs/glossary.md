@@ -109,6 +109,9 @@ A framework explaining how working memory limitations affect learning, especiall
 
 Example: Breaking down visual design tasks into smaller steps helps reduce cognitive load for students who struggle with executive functioning.
 
+#### Cognitive Profile
+
+
 #### Comorbidity In Neurodevelopmental Conditions
 
 The co-occurrence of two or more neurodevelopmental conditions in the same individual.

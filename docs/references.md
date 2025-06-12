@@ -1,4 +1,17 @@
-# Site References
+# Neurodiversity Course References
+
+* [The Teaching of Reading: Why Structured Literacy Matters](https://districtadministration.com/article/dyslexia-screening-and-the-use-of-acadience-reading-lp-2-5/) - by John Alexander - John Alexander, M.Ed., has spent 32 years helping emerging and struggling readers become proficient. He is a graduate of Harvard University, and has been a reading teacher, head of school, and reading coach. Dr. Alexander is passionate about democratizing evidence-based literacy instruction for all students. Dr. Alexander works with individual families and schools, bringing a wide and deep experience in assessment, curriculum design and implementation, professional development, and teacher coaching in literacy instruction.
+
+* [Teaching Reading: Why the "HOW" Is Critical](https://www.voyagersopris.com/blog/edview360/teaching-reading-why-the-how-is-critical)
+
+
+* [Dyslexia is really not about visual processing issues](https://www.linkedin.com/pulse/dyslexia-really-visual-processing-issues-john-alexander-m-ed/) - John Alexander, M.Ed August 29, 2018
+
+* [Decoding: It's Not All About the Letters](https://pubs.asha.org/doi/10.1044/2018_LSHSS-17-0104)
+
+
+* [What Is the Role of AT for Students With Dyslexia?](https://dyslexiaida.org/great-debate-what-is-the-role-of-at-for-students-with-dyslexia/) - March 2019 - https://dyslexiaida.org/
+## Site References
 
 1. **mkdocs** - [https://www.mkdocs.org/](https://www.mkdocs.org/) - this is our tool for building the website.  It converts Markdown into HTML in the ```site``` directory.
 2. **mkdocs material theme** - [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/) - this is the theme for our site.  The theme adds the user interface elements that give our site the look and feel.  It also has the features such as social cards.
