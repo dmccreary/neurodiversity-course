@@ -17,7 +17,7 @@ nav:
     - Glossary: prompts/glossary.md
     - Thought Leaders: prompts/thought-leaders.md
     - GLF Chatbot: prompts/glf-chatbot.md
-    - List Phonics Concepts: prompts/phonics-concept-lest.md
+    - List Phonics Concepts: prompts/phonics-concept-list.md
   
   - MicroSims:
     - Intro: sims/index.md
