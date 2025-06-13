@@ -10,6 +10,8 @@ nav:
   - Home: index.md
   - About: about.md
   
+  - Chapters:
+    - Intro: chapters/index.md
   - Prompts:
     - Intro: prompts/index.md
     - Concept Enumeration: prompts/concept-enumeration.md
@@ -19,10 +21,13 @@ nav:
     - Thought Leaders: prompts/thought-leaders.md
     - GLF Chatbot: prompts/glf-chatbot.md
     - List Phonics Concepts: prompts/phonics-concept-list.md
-  
+    - Reading Layers: prompts/reading-layers.md
+    - RAG Templates: prompts/rag-ready-templates.md
   - MicroSims:
     - Intro: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
+    - Reading Layers: sims/reading-layers/index.md
+    - Template: sims/templates/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
