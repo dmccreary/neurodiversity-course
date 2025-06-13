@@ -1,4 +1,4 @@
-# About the Neurodiversity Book
+# About the Neurodiversity in the Age of AI Book
 
 ## A Revolution in Learning Is Here
 
