@@ -40,6 +40,11 @@ nav:
     - Reading Games: prompts/reading-games.md
     - Template: sims/templates/index.md
 
+  - Research:
+    - Intro: research/index.md
+    - Trends in Dyslexia Education: research/latest-trends-in-dyslexia-education.md
+    - Shaywitz Book: research/shaywitz-book.md
+
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
