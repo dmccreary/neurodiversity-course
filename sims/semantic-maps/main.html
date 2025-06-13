@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Mapping Tool</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .controls input, .controls select, .controls button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .controls button {
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .controls button:hover {
+            background: #45a049;
+        }
+        .legend {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .legend-color {
+            width: 20px;
+            height: 3px;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+        #instructions {
+            margin-top: 10px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Semantic Mapping Tool</h1>
+    
+    <div class="controls">
+        <input type="text" id="wordInput" placeholder="Enter a word" maxlength="20">
+        <select id="relationshipType">
+            <option value="synonym">Synonym</option>
+            <option value="antonym">Antonym</option>
+            <option value="example">Example</option>
+            <option value="category">Category</option>
+            <option value="personal">Personal Connection</option>
+            <option value="characteristic">Characteristic</option>
+        </select>
+        <button onclick="addWord()">Add Word</button>
+        <button onclick="clearMap()">Clear Map</button>
+        <button onclick="resetToExample()">Load Example</button>
+    </div>
+    
+    <div id="instructions">
+        Click and drag words to move them. Right-click on a word to delete it. Start by adding a central word, then add related words with different relationship types.
+    </div>
+    
+    <div class="legend">
+        <h4>Relationship Types</h4>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #4CAF50;"></div>
+            Synonyms
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #f44336;"></div>
+            Antonyms
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #2196F3;"></div>
+            Examples
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #FF9800;"></div>
+            Categories
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #9C27B0;"></div>
+            Personal
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #607D8B;"></div>
+            Characteristics
+        </div>
+    </div>
+
+    <script>
+        let words = [];
+        let connections = [];
+        let draggedWord = null;
+        let dragOffset = { x: 0, y: 0 };
+        let centerWord = null;
+        
+        const colors = {
+            synonym: '#4CAF50',
+            antonym: '#f44336', 
+            example: '#2196F3',
+            category: '#FF9800',
+            personal: '#9C27B0',
+            characteristic: '#607D8B'
+        };
+        
+        class Word {
+            constructor(text, x, y, type = 'normal', relationship = null) {
+                this.text = text;
+                this.x = x;
+                this.y = y;
+                this.type = type; // 'center' or 'normal'
+                this.relationship = relationship;
+                this.width = textWidth(text) + 30;
+                this.height = 40;
+                this.hovered = false;
+            }
+            
+            draw() {
+                // Draw word bubble
+                fill(this.type === 'center' ? '#FFD700' : '#ffffff');
+                stroke(this.relationship ? colors[this.relationship] : '#333333');
+                strokeWeight(this.type === 'center' ? 4 : 2);
+                
+                if (this.hovered) {
+                    fill(this.type === 'center' ? '#FFF200' : '#f0f0f0');
+                }
+                
+                rect(this.x - this.width/2, this.y - this.height/2, this.width, this.height, 10);
+                
+                // Draw text
+                fill(this.type === 'center' ? '#000000' : '#333333');
+                noStroke();
+                textAlign(CENTER, CENTER);
+                textSize(this.type === 'center' ? 18 : 14);
+                textStyle(this.type === 'center' ? BOLD : NORMAL);
+                text(this.text, this.x, this.y);
+            }
+            
+            contains(x, y) {
+                return x > this.x - this.width/2 && x < this.x + this.width/2 &&
+                       y > this.y - this.height/2 && y < this.y + this.height/2;
+            }
+            
+            updateHover(x, y) {
+                this.hovered = this.contains(x, y);
+            }
+        }
+        
+        class Connection {
+            constructor(word1, word2, type) {
+                this.word1 = word1;
+                this.word2 = word2;
+                this.type = type;
+            }
+            
+            draw() {
+                stroke(colors[this.type]);
+                strokeWeight(3);
+                
+                // Calculate connection points on word boundaries
+                let dx = this.word2.x - this.word1.x;
+                let dy = this.word2.y - this.word1.y;
+                let distance = sqrt(dx*dx + dy*dy);
+                
+                let x1 = this.word1.x + (dx/distance) * (this.word1.width/2);
+                let y1 = this.word1.y + (dy/distance) * (this.word1.height/2);
+                let x2 = this.word2.x - (dx/distance) * (this.word2.width/2);
+                let y2 = this.word2.y - (dy/distance) * (this.word2.height/2);
+                
+                line(x1, y1, x2, y2);
+                
+                // Draw arrow
+                push();
+                translate(x2, y2);
+                rotate(atan2(dy, dx));
+                fill(colors[this.type]);
+                noStroke();
+                triangle(0, 0, -10, -4, -10, 4);
+                pop();
+            }
+        }
+        
+        function setup() {
+            let canvas = createCanvas(windowWidth - 40, windowHeight - 200);
+            canvas.parent(document.body);
+            
+            // Load example semantic map
+            resetToExample();
+        }
+        
+        function draw() {
+            background(240, 248, 255);
+            
+            // Update hover states
+            words.forEach(word => word.updateHover(mouseX, mouseY));
+            
+            // Draw connections first (behind words)
+            connections.forEach(connection => connection.draw());
+            
+            // Draw words
+            words.forEach(word => word.draw());
+            
+            // Draw instructions if no words
+            if (words.length === 0) {
+                fill(100);
+                textAlign(CENTER, CENTER);
+                textSize(24);
+                text("Add your first word to begin mapping!", width/2, height/2);
+            }
+        }
+        
+        function mousePressed() {
+            // Check if clicking on a word
+            for (let word of words) {
+                if (word.contains(mouseX, mouseY)) {
+                    draggedWord = word;
+                    dragOffset.x = mouseX - word.x;
+                    dragOffset.y = mouseY - word.y;
+                    return;
+                }
+            }
+        }
+        
+        function mouseDragged() {
+            if (draggedWord) {
+                draggedWord.x = mouseX - dragOffset.x;
+                draggedWord.y = mouseY - dragOffset.y;
+                
+                // Keep within canvas bounds
+                draggedWord.x = constrain(draggedWord.x, draggedWord.width/2, width - draggedWord.width/2);
+                draggedWord.y = constrain(draggedWord.y, draggedWord.height/2, height - draggedWord.height/2);
+            }
+        }
+        
+        function mouseReleased() {
+            draggedWord = null;
+        }
+        
+        // Right-click to delete word
+        function mousePressed() {
+            if (mouseButton === RIGHT) {
+                for (let i = words.length - 1; i >= 0; i--) {
+                    if (words[i].contains(mouseX, mouseY)) {
+                        // Remove connections involving this word
+                        connections = connections.filter(conn => 
+                            conn.word1 !== words[i] && conn.word2 !== words[i]
+                        );
+                        
+                        // If deleting center word, reset
+                        if (words[i] === centerWord) {
+                            centerWord = null;
+                        }
+                        
+                        words.splice(i, 1);
+                        return;
+                    }
+                }
+            } else {
+                // Left click drag logic
+                for (let word of words) {
+                    if (word.contains(mouseX, mouseY)) {
+                        draggedWord = word;
+                        dragOffset.x = mouseX - word.x;
+                        dragOffset.y = mouseY - word.y;
+                        return;
+                    }
+                }
+            }
+        }
+        
+        function addWord() {
+            let wordInput = document.getElementById('wordInput');
+            let relationshipSelect = document.getElementById('relationshipType');
+            
+            let text = wordInput.value.trim();
+            if (!text) return;
+            
+            let relationship = relationshipSelect.value;
+            
+            // Position new word
+            let x, y;
+            if (words.length === 0) {
+                // First word goes in center
+                x = width / 2;
+                y = height / 2;
+                centerWord = new Word(text, x, y, 'center');
+                words.push(centerWord);
+            } else {
+                // Position around center word
+                let angle = (words.length - 1) * (TWO_PI / 8); // Max 8 words around center
+                let radius = 150;
+                x = centerWord.x + cos(angle) * radius;
+                y = centerWord.y + sin(angle) * radius;
+                
+                let newWord = new Word(text, x, y, 'normal', relationship);
+                words.push(newWord);
+                
+                // Create connection to center word
+                connections.push(new Connection(centerWord, newWord, relationship));
+            }
+            
+            wordInput.value = '';
+        }
+        
+        function clearMap() {
+            words = [];
+            connections = [];
+            centerWord = null;
+        }
+        
+        function resetToExample() {
+            clearMap();
+            
+            // Create example map for "Brave"
+            centerWord = new Word("Brave", width/2, height/2, 'center');
+            words.push(centerWord);
+            
+            // Add related words with different relationships
+            let examples = [
+                {text: "Courageous", relationship: "synonym", angle: 0},
+                {text: "Fearful", relationship: "antonym", angle: PI},
+                {text: "Lion", relationship: "example", angle: PI/2},
+                {text: "Hero", relationship: "example", angle: -PI/2},
+                {text: "Emotion", relationship: "category", angle: PI/4},
+                {text: "Strong", relationship: "characteristic", angle: -PI/4}
+            ];
+            
+            examples.forEach((item, index) => {
+                let radius = 150;
+                let x = centerWord.x + cos(item.angle) * radius;
+                let y = centerWord.y + sin(item.angle) * radius;
+                
+                let newWord = new Word(item.text, x, y, 'normal', item.relationship);
+                words.push(newWord);
+                connections.push(new Connection(centerWord, newWord, item.relationship));
+            });
+        }
+        
+        function windowResized() {
+            resizeCanvas(windowWidth - 40, windowHeight - 200);
+        }
+        
+        // Prevent right-click context menu
+        document.addEventListener('contextmenu', e => e.preventDefault());
+    </script>
+</body>
+</html>
