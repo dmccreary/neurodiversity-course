@@ -1,5 +1,5 @@
-site_name: Neurodiversity Course
-site_description: 'A course on neurodiversity, designed to be accessible and engaging for all learners.'
+site_name: Neurodiversity in the Age of AI
+site_description: 'A course on neurodiversity in the time of AI, designed to be accessible and engaging for all learners.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/neurodiversity-course/'
@@ -10,7 +10,7 @@ nav:
   - Home: index.md
   - About: about.md
   
-  - Chapters:
+  - Sample Chapters:
     - Intro: chapters/index.md
     - Chatbot Architecture: chapters/arch.md
     - CVC: chapters/cvc.md
@@ -22,6 +22,7 @@ nav:
     - Concept Taxonomy: prompts/concept-taxonomy.md
     - Course Description: prompts/course-description.md
     - Glossary: prompts/glossary.md
+    - About This Book: prompts/about-this-book.md
     - Thought Leaders: prompts/thought-leaders.md
     - GLF Chatbot: prompts/glf-chatbot.md
     - List Phonics Concepts: prompts/phonics-concept-list.md
