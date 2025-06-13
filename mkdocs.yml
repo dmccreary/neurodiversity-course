@@ -26,14 +26,17 @@ nav:
     - GLF Chatbot: prompts/glf-chatbot.md
     - List Phonics Concepts: prompts/phonics-concept-list.md
     - Site Words: prompts/site-words.md
-    - Reading Layers: prompts/reading-layers.md
     - Groves Learning Framework Pillars: prompts/glf-pillars.md
     - RAG Templates: prompts/rag-ready-templates.md
-
+    - High School Vocabulary: prompts/high-school-vocabulary.md
+    - Reading Games: prompts/reading-games.md
+    
   - MicroSims:
     - Intro: sims/index.md
     - Learning Graph: sims/learning-graph/index.md
     - Reading Layers: sims/reading-layers/index.md
+    - Semantic Maps: sims/semantic-maps/index.md
+    - Reading Games: prompts/reading-games.md
     - Template: sims/templates/index.md
 
   - Glossary: glossary.md
