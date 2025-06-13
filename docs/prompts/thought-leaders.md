@@ -1,5 +1,8 @@
 # Thought Leaders
 
+!!! prompt
+    Who are the top people in the United States that have done work in the field of teaching neurodiverse students such as students that have dyslexia or ADHD to facilitate better reading and learning skills.
+
 I'll search for current information about leading experts in neurodiversity education, particularly those focused on dyslexia and ADHD interventions for reading and learning.Based on my research, here are the top experts in the United States who have made significant contributions to teaching neurodiverse students, particularly those with dyslexia and ADHD, to facilitate better reading and learning skills:
 
 ## Leading Dyslexia Researchers and Interventionists
