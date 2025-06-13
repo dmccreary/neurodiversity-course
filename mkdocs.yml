@@ -14,7 +14,7 @@ nav:
     - Intro: chapters/index.md
     - Chatbot Architecture: chapters/arch.md
     - CVC: chapters/cvc.md
-    - Phoneme-Grapheme: chapters/phoneme-grapheme.md
+    - Phoneme-Grapheme Maps: chapters/phoneme-grapheme.md
 
   - Prompts:
     - Intro: prompts/index.md
@@ -33,7 +33,7 @@ nav:
     - Learning Graph: sims/learning-graph/index.md
     - Reading Layers: sims/reading-layers/index.md
     - Template: sims/templates/index.md
-    
+
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md

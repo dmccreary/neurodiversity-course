@@ -1,6 +1,6 @@
-# Phoneme-grapheme relationships
+# Phoneme-Grapheme Maps
 
-Phoneme-grapheme relationships are the fundamental connections between **sounds** (phonemes) and their **written representations** (graphemes) in language. Understanding these relationships and their dependencies is crucial for effective reading and spelling instruction.
+Phoneme-grapheme mapping relationships are the fundamental connections between **sounds** (phonemes) and their **written representations** (graphemes) in language. Understanding these relationships and their dependencies is crucial for effective reading and spelling instruction.
 
 ## What Are Phoneme-Grapheme Relationships?
 
@@ -14,11 +14,13 @@ Phoneme-grapheme relationships are the fundamental connections between **sounds*
 ## Examples of Phoneme-Grapheme Relationships
 
 **Simple relationships:**
+
 - /m/ → m (as in "mom")
 - /s/ → s (as in "sun")
 - /a/ → a (as in "cat")
 
 **Complex relationships:**
+
 - /f/ → f, ph, gh (as in "fish," "phone," "laugh")
 - /k/ → c, k, ck, ch (as in "cat," "kite," "back," "school")
 - /ā/ → a_e, ai, ay, ei (as in "cake," "rain," "play," "eight")
@@ -30,11 +32,13 @@ Dependencies refer to the prerequisite relationships between phonics concepts - 
 ### Phase Dependencies
 
 **Foundation Skills (Must Come First):**
+
 - Phonological awareness (rhyming, syllable counting)
 - Sound identification and manipulation
 - Letter recognition and formation
 
 **Building Block Progression:**
+
 - Single consonants → Short vowels → CVC words
 - Basic patterns → Consonant digraphs → Consonant blends
 - Simple syllables → Complex syllable types → Multisyllabic words
@@ -42,16 +46,19 @@ Dependencies refer to the prerequisite relationships between phonics concepts - 
 ### Specific Dependency Examples
 
 **Before teaching CVCe patterns** (like "cake"), students need:
+
 - Mastery of short vowel sounds
 - Understanding of CVC patterns
 - Knowledge of individual consonants and vowels involved
 
 **Before teaching consonant blends** (like "bl", "str"), students need:
+
 - Solid knowledge of individual consonant sounds
 - Ability to blend two sounds together
 - Understanding of basic syllable structure
 
 **Before teaching advanced patterns** (like "tion", "cious"), students need:
+
 - Mastery of basic vowel teams
 - Understanding of syllable types
 - Knowledge of morphological concepts
@@ -66,6 +73,7 @@ Students use known patterns to decode unfamiliar words. For example, knowing "at
 
 **Error Prevention:**
 Following proper dependencies prevents common confusions, such as:
+
 - Teaching "magic e" before students have mastered short vowels
 - Introducing complex blends before simple consonant sounds are automatic
 - Presenting irregular patterns before regular patterns are established
