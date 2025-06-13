@@ -25,7 +25,9 @@ nav:
     - Thought Leaders: prompts/thought-leaders.md
     - GLF Chatbot: prompts/glf-chatbot.md
     - List Phonics Concepts: prompts/phonics-concept-list.md
+    - Site Words: prompts/site-words.md
     - Reading Layers: prompts/reading-layers.md
+    - Groves Learning Framework Pillars: prompts/glf-pillars.md
     - RAG Templates: prompts/rag-ready-templates.md
 
   - MicroSims:
