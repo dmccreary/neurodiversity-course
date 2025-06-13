@@ -519,3 +519,7 @@ Read [neuhaus.org](http://neuhaus.org/)
 Neuhaus notes limited efficacy studies for OG programs, but standard dyslexia instruction expands to syllables, morphology, syntax, and writing.
 
 Research completed in 5m - 29 sources
+
+## References
+
+[OpenAI Chat Log](https://chatgpt.com/share/684c2af7-88a4-8001-845b-673a69d9f9ee)
